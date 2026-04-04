@@ -15,7 +15,7 @@ WORDY_MARKERS = {
     'find', 'show', 'state', 'whether'
 }
 
-TARGET_PREAMBLE = """\\documentclass[15pt,a4paper,landscape]{extarticle}
+TARGET_PREAMBLE = """\\documentclass[17pt,a4paper,landscape]{extarticle}
 \\usepackage[margin=1.2cm]{geometry}
 \\usepackage{amsmath}
 \\usepackage{amssymb}
