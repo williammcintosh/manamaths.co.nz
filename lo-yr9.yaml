@@ -1,0 +1,135 @@
+year_level: 9
+learning_objectives:
+  - id: L01
+    topic: Forming fractions
+    instruction: Write each as a fraction.
+    terminology:
+      - fraction
+      - whole
+      - numerator
+      - denominator
+    skills:
+      - form fractions from context
+    question_types:
+      - part of a whole
+      - context problems
+
+    foundation_questions:
+      - \item 3 out of 8
+      - \item 4 out of 10
+      - \item 7 out of 20
+      - \item 5 out of 12
+      - \item 2 out of 6
+      - \item 1 out of 9
+      - \item 6 out of 15
+      - \item 8 out of 14
+      - \item 3 out of 11
+      - \item 9 out of 16
+      - \item 2 out of 5
+      - \item 4 out of 13
+
+      - |
+        \item {
+        \begin{tikzpicture}[scale=1]
+        \foreach \i in {0,...,5} {
+          \coordinate (P\i) at ({60*\i}:1.4);
+        }
+        \coordinate (O) at (0,0);
+        \fill[green!60!black] (O)--(P0)--(P1)--cycle;
+        \fill[green!60!black] (O)--(P1)--(P2)--cycle;
+        \draw (P0)--(P1)--(P2)--(P3)--(P4)--(P5)--cycle;
+        \foreach \i in {0,...,5} \draw (O)--(P\i);
+        \end{tikzpicture}
+        }
+
+      - |
+        \item {
+        \begin{tikzpicture}[scale=1.1]
+        \coordinate (A) at (0,0);
+        \coordinate (B) at (2,0);
+        \coordinate (C) at (1,1.8);
+        \coordinate (M) at (1,0.6);
+        \fill[purple!30] (A)--(C)--(M)--cycle;
+        \draw (A)--(B)--(C)--cycle;
+        \draw (A)--(M)--(B);
+        \draw (C)--(M);
+        \end{tikzpicture}
+        }
+
+      - |
+        \item {
+        \begin{tikzpicture}[scale=1]
+        \def\r{1.4}
+        \foreach \i in {0,...,9} {
+          \pgfmathsetmacro{\a}{90-36*\i}
+          \pgfmathsetmacro{\b}{90-36*(\i+1)}
+          \ifnum\i<4
+            \fill[orange!35] (0,0)--(\a:\r) arc (\a:\b:\r)--cycle;
+          \fi
+        }
+        \foreach \i in {0,...,9} {
+          \draw (0,0)--({90-36*\i}:\r);
+        }
+        \draw (0,0) circle (\r);
+        \end{tikzpicture}
+        }
+
+      - |
+        \item {
+        \begin{tikzpicture}[scale=0.9]
+        \draw (0,0) rectangle (4,2);
+        \draw (2,0)--(2,2);
+        \draw (0,1)--(4,1);
+        \coordinate (C) at (2,1);
+        \foreach \p in {(0,2),(0,0),(4,2),(4,0)} \draw \p -- (C);
+        \fill[orange!50] (0,2)--(2,1)--(0,1)--cycle;
+        \fill[orange!50] (2,1)--(4,2)--(4,1)--cycle;
+        \fill[orange!50] (0,0)--(2,1)--(0,1)--cycle;
+        \fill[orange!50] (2,0)--(2,1)--(4,0)--cycle;
+        \end{tikzpicture}
+        }
+
+    proficient_questions:
+      - \item 5 of 12 shaded
+      - \item 9 of 36 away
+      - \item 7 of 20 spins
+      - \item 17 of 48 faulty
+      - \item 18 of 25 full
+      - \item 13 of 32 prefer cats
+      - \item 19 of 27 covered
+      - \item 16 of 45 bikes
+      - \item 7 of 18 used
+      - \item 23 of 50 coloured
+      - \item 11 of 29 shoes
+      - \item 21 of 34 taken
+
+    excellence_questions:
+      # unit_conversion
+      - \item 2 days of 1 week
+      - \item 40p of £2
+      - \item 5 min of 1 hour
+      - \item 300g of 2kg
+
+      # whole_inferred
+      - \item 8 red, 12 blue, red?
+      - \item 5 cats, 7 dogs, cats?
+      - \item 9 boys, 11 girls, boys?
+      - \item 6 apples, 4 eaten, eaten?
+
+      # fraction_of_remainder
+      - \item 12 total, 5 used, fraction left?
+      - \item 20 total, 8 gone, fraction remaining?
+      - \item 15 total, 6 eaten, fraction not eaten?
+      - \item 18 total, 7 broken, fraction not broken?
+
+      # word_problem
+      - \item 30 students, 18 present, fraction present?
+      - \item 24 seats, 9 empty, fraction empty?
+      - \item 40 tickets, 25 sold, fraction sold?
+      - \item 50 marbles, 20 blue, fraction blue?
+
+      # error_check
+      - \item $3/8 = 5/10$ correct?
+      - \item $6/12 = 1/3$ correct?
+      - \item $4/9 = 8/18$ correct?
+      - \item $10/20 = 2/5$ correct?
