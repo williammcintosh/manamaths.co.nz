@@ -24,12 +24,14 @@ TARGET_PREAMBLE = """\\documentclass[17pt,a4paper,landscape]{extarticle}
 \\usepackage{tikz}
 \\usepackage{xcolor}
 \\usepackage[sfdefault,lf]{FiraSans}
+\\usepackage{sansmath}
 \\renewcommand{\\familydefault}{\\sfdefault}
 \\setlength{\\parindent}{0pt}
 \\pagestyle{empty}
 \\setlength{\\columnsep}{1.4cm}
 \\setlength{\\columnseprule}{0pt}
 \\renewcommand{\\arraystretch}{1.15}
+\\everymath{\\displaystyle}
 """
 
 
@@ -90,7 +92,7 @@ def normalize_preamble(tex: str) -> str:
     preamble, rest = tex.split('\\begin{document}', 1)
     rest = rest.lstrip()
     rest = re.sub(r'^(\\sffamily\s*)+', '', rest)
-    return TARGET_PREAMBLE + '\n\\begin{document}\n\\sffamily\n\n' + rest
+    return TARGET_PREAMBLE + '\n\\begin{document}\n\\sffamily\n\\sansmath\n\n' + rest
 
 
 def apply_to_file(path: Path) -> tuple[int, str]:
