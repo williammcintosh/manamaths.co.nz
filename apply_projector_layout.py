@@ -15,19 +15,19 @@ WORDY_MARKERS = {
     'find', 'show', 'state', 'whether'
 }
 
-TARGET_PREAMBLE = """\\documentclass[14pt,a4paper,landscape]{extarticle}
-\\usepackage[margin=1.25cm]{geometry}
+TARGET_PREAMBLE = """\\documentclass[15pt,a4paper,landscape]{extarticle}
+\\usepackage[margin=1.2cm]{geometry}
 \\usepackage{amsmath}
 \\usepackage{amssymb}
 \\usepackage{multicol}
 \\usepackage{enumitem}
 \\usepackage{tikz}
 \\usepackage{xcolor}
-\\usepackage[scaled=1.05]{helvet}
+\\usepackage{tgheros}
 \\renewcommand{\\familydefault}{\\sfdefault}
 \\setlength{\\parindent}{0pt}
 \\pagestyle{empty}
-\\setlength{\\columnsep}{1.2cm}
+\\setlength{\\columnsep}{1.4cm}
 \\setlength{\\columnseprule}{0pt}
 \\renewcommand{\\arraystretch}{1.15}
 """
@@ -50,7 +50,7 @@ def extract_items(tex: str) -> list[str]:
 def classify_layout(tex: str) -> tuple[int, str, str]:
     items = extract_items(tex)
     if not items:
-        return 3, '5.2em', 'fallback-no-items'
+        return 3, '6.4em', 'fallback-no-items'
 
     score = 0
     for item in items:
@@ -80,8 +80,8 @@ def classify_layout(tex: str) -> tuple[int, str, str]:
     average_words = sum(len(strip_latex(item).split()) for item in items) / len(items)
 
     if average_score >= 2.2 or average_words >= 5.2:
-        return 3, '5.6em', f'wordy avg_score={average_score:.2f} avg_words={average_words:.2f}'
-    return 4, '4.8em', f'numeric avg_score={average_score:.2f} avg_words={average_words:.2f}'
+        return 3, '6.8em', f'wordy avg_score={average_score:.2f} avg_words={average_words:.2f}'
+    return 4, '5.8em', f'numeric avg_score={average_score:.2f} avg_words={average_words:.2f}'
 
 
 def normalize_preamble(tex: str) -> str:
@@ -96,11 +96,14 @@ def normalize_preamble(tex: str) -> str:
 def apply_to_file(path: Path) -> tuple[int, str]:
     original = path.read_text(encoding='utf-8')
     updated = normalize_preamble(original)
-    updated = re.sub(r'\\vspace\{[^}]+\}', r'\\vspace{2.4em}', updated, count=1)
+    updated = re.sub(r'\\vspace\{[^}]+\}', r'\\vspace{2.8em}', updated, count=1)
 
     columns, itemsep, reason = classify_layout(updated)
     updated = re.sub(r'\\begin\{multicols\}\{\d+\}', rf'\\begin{{multicols}}{{{columns}}}', updated)
     updated = re.sub(r'itemsep=([0-9.]+)em,', f'itemsep={itemsep},', updated)
+    updated = re.sub(r'label=\\arabic\*\.,', r'label=\\textbf{\\arabic*.},', updated)
+    updated = re.sub(r'labelwidth=([0-9.]+)em,', 'labelwidth=2.2em,', updated)
+    updated = re.sub(r'labelsep=([0-9.]+)em,', 'labelsep=0.75em,', updated)
 
     if updated != original:
         path.write_text(updated, encoding='utf-8')
