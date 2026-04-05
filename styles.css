@@ -1,0 +1,159 @@
+:root {
+  color-scheme: light;
+  --bg: #f7f5ef;
+  --paper: #ffffff;
+  --ink: #1f2937;
+  --muted: #5b6472;
+  --line: #e5ded1;
+  --accent: #2b6cb0;
+  --accent-strong: #1e4f86;
+  --shadow: 0 20px 50px rgba(15, 23, 42, 0.08);
+}
+
+* { box-sizing: border-box; }
+
+body {
+  margin: 0;
+  font-family: Inter, ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+  background: linear-gradient(180deg, #faf8f3 0%, #f4f1e8 100%);
+  color: var(--ink);
+}
+
+.page-shell {
+  width: min(1080px, calc(100vw - 32px));
+  margin: 0 auto;
+  padding: 48px 0 72px;
+}
+
+.hero, .objective-section, .jump-links {
+  background: var(--paper);
+  border: 1px solid var(--line);
+  border-radius: 24px;
+  box-shadow: var(--shadow);
+}
+
+.hero {
+  padding: 36px;
+  margin-bottom: 24px;
+}
+
+.eyebrow {
+  margin: 0 0 10px;
+  font-size: 0.82rem;
+  font-weight: 700;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+  color: var(--accent);
+}
+
+h1, h2 {
+  margin: 0;
+  line-height: 1.05;
+}
+
+h1 {
+  font-size: clamp(2.2rem, 5vw, 4.4rem);
+  max-width: 10ch;
+}
+
+h2 {
+  font-size: clamp(1.5rem, 3vw, 2.3rem);
+}
+
+.lead {
+  max-width: 44rem;
+  margin: 14px 0 0;
+  font-size: 1.05rem;
+  line-height: 1.6;
+  color: var(--muted);
+}
+
+.jump-links {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 12px;
+  padding: 20px;
+  margin-bottom: 24px;
+}
+
+.jump-links a {
+  display: inline-flex;
+  align-items: center;
+  min-height: 44px;
+  padding: 10px 14px;
+  border-radius: 999px;
+  text-decoration: none;
+  color: var(--accent-strong);
+  background: #eef4fb;
+  font-weight: 600;
+}
+
+.objective-section {
+  padding: 28px;
+  margin-bottom: 20px;
+}
+
+.section-heading {
+  margin-bottom: 18px;
+}
+
+.worksheet-grid {
+  display: grid;
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+  gap: 14px;
+}
+
+.worksheet-card {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 12px;
+  min-height: 86px;
+  padding: 18px 20px;
+  border-radius: 18px;
+  border: 1px solid var(--line);
+  background: #fcfbf7;
+  text-decoration: none;
+  color: inherit;
+  transition: transform 120ms ease, box-shadow 120ms ease, border-color 120ms ease;
+}
+
+.worksheet-card:hover {
+  transform: translateY(-1px);
+  border-color: #c9d8ee;
+  box-shadow: 0 12px 28px rgba(43, 108, 176, 0.12);
+}
+
+.worksheet-level {
+  font-size: 1.05rem;
+  font-weight: 700;
+}
+
+.worksheet-arrow {
+  color: var(--muted);
+  white-space: nowrap;
+}
+
+@media (max-width: 760px) {
+  .page-shell {
+    width: min(100vw - 20px, 1080px);
+    padding: 20px 0 40px;
+  }
+
+  .hero, .objective-section, .jump-links {
+    border-radius: 18px;
+  }
+
+  .hero, .objective-section {
+    padding: 20px;
+  }
+
+  .worksheet-grid {
+    grid-template-columns: 1fr;
+  }
+
+  .worksheet-card {
+    min-height: 72px;
+    padding: 16px;
+  }
+}

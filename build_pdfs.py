@@ -11,6 +11,7 @@ ROOT = Path(__file__).resolve().parent
 DEFAULT_GLOB = "lo-yr9-*/**/*-questions.tex"
 CLEAN_SUFFIXES = [".aux", ".log", ".fls", ".fdb_latexmk", ".out", ".synctex.gz"]
 LAYOUT_SCRIPT = ROOT / "apply_projector_layout.py"
+LOCAL_TECTONIC = ROOT / ".tools" / "tectonic" / "tectonic"
 
 
 def find_engine() -> list[str] | None:
@@ -25,6 +26,9 @@ def find_engine() -> list[str] | None:
     tectonic = shutil.which("tectonic")
     if tectonic:
         return [tectonic, "--keep-logs", "--keep-intermediates"]
+
+    if LOCAL_TECTONIC.exists():
+        return [str(LOCAL_TECTONIC), "--keep-logs", "--keep-intermediates"]
 
     return None
 
