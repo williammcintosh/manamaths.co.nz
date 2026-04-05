@@ -27,7 +27,7 @@ TARGET_PREAMBLE = """\\documentclass[17pt,a4paper,landscape]{extarticle}
 \\renewcommand{\\familydefault}{\\sfdefault}
 \\setlength{\\parindent}{0pt}
 \\pagestyle{empty}
-\\setlength{\\columnsep}{0.95cm}
+\\setlength{\\columnsep}{0.55cm}
 \\setlength{\\columnseprule}{0pt}
 \\renewcommand{\\arraystretch}{1.15}
 \\everymath{\\displaystyle}
@@ -51,7 +51,7 @@ def extract_items(tex: str) -> list[str]:
 def classify_layout(tex: str) -> tuple[int, str, str]:
     items = extract_items(tex)
     if not items:
-        return 3, '6.9em', 'fallback-no-items'
+        return 3, '7.8em', 'fallback-no-items'
 
     score = 0
     for item in items:
@@ -81,8 +81,8 @@ def classify_layout(tex: str) -> tuple[int, str, str]:
     average_words = sum(len(strip_latex(item).split()) for item in items) / len(items)
 
     if average_score >= 2.2 or average_words >= 5.2:
-        return 3, '7.8em', f'wordy avg_score={average_score:.2f} avg_words={average_words:.2f}'
-    return 3, '7.0em', f'numeric avg_score={average_score:.2f} avg_words={average_words:.2f}'
+        return 3, '8.8em', f'wordy avg_score={average_score:.2f} avg_words={average_words:.2f}'
+    return 3, '7.9em', f'numeric avg_score={average_score:.2f} avg_words={average_words:.2f}'
 
 
 def normalize_preamble(tex: str) -> str:
