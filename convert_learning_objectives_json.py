@@ -57,9 +57,9 @@ def yaml_list(lines: list[str], indent: int = 0) -> str:
 
 
 def normalize_objective(raw: dict, index: int) -> dict:
-    topic = pick(raw, 'topic', 'title', 'name', default=f'Learning objective {index:02d}')
-    objective_id = pick(raw, 'id', 'objective_id', default=f'L{index:02d}')
-    instruction = pick(raw, 'instruction', 'instructions', 'prompt', default='')
+    topic = pick(raw, 'topic', 'title', 'display_title', 'name', default=f'Learning objective {index:02d}')
+    objective_id = pick(raw, 'id', 'objective_id', 'source_code', default=f'L{index:02d}')
+    instruction = pick(raw, 'instruction', 'instructions', 'prompt', 'teaching_notes', default='')
 
     normalized = {
         'id': str(objective_id),

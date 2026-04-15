@@ -1,9 +1,9 @@
 year_level: 9
 learning_objectives:
-  - id: L01
+  - id: LO1
     topic: Place Values and Decimals
     slug: "lo-yr9-place-values-and-decimals"
-    instruction: ""
+    instruction: "['Students need to know the difference between terminating decimals', 'and recurring decimals (e.g. 0.325 is terminating, 0.66666... is', 'recurring).']"
     terminology:
       - Place value
       - Decimal point
@@ -23,10 +23,10 @@ learning_objectives:
 
     excellence_questions:
       []
-  - id: L02
+  - id: LO2
     topic: Rounding to Decimal Points
     slug: "lo-yr9-rounding-to-decimal-points"
-    instruction: ""
+    instruction: "['Students must know: When calculating, it is best to use at least one', 'more significant figure than is required inthe final solution, and round', 'at the end of the whole calculation.', 'WBHS Approach: Round to one additional place value than the', 'informationinthe question. For example, if you’re doing Pythagoras’', 'Theory with 6cm and 7.5m, the answer should be 2dp!']"
     terminology:
       - Rounding
       - Decimal place
@@ -44,10 +44,10 @@ learning_objectives:
 
     excellence_questions:
       []
-  - id: L03
+  - id: LO3
     topic: Multiplying and dividing by 10,100,1000
     slug: "lo-yr9-multiplying-and-dividing-by-10-100-1000"
-    instruction: ""
+    instruction: "[]"
     terminology:
       - Power of ten
       - Decimal shift
@@ -64,10 +64,10 @@ learning_objectives:
 
     excellence_questions:
       []
-  - id: L04
+  - id: LO4
     topic: Scientific notation
     slug: "lo-yr9-scientific-notation"
-    instruction: ""
+    instruction: "['Linking integers to BEDMAS can come up later in LO6', 'Checking for equivalence in expressions involving negative numbers', '[e.g. (-3)2 # -32, -2 + 3 =3 + (-2), 2 x (-3) = (-3) x 2 = (-2) x 3, etc]', 'Terminology:', 'Integer', 'Positive', 'Negative', 'Students should be able to confidently answer questions like the following:', 'What is the opposite of -7?', 'Circle the integers in the list: 3, -5.5, 0, 1/2.', 'True or False: A negative number plus a negative number is always', 'negative.', 'The temperature is -4°C. It rises by 10°C. What is the new', 'temperature? Show your calculation on a number line.', 'Calculate: -15 + 8 - (-3).', 'Adiver starts at -12 m. They ascend 3 m, then descend 5 m. If the', \"water surface is 0 m, what is the diver's final position? Write this as a\", 'single calculation.']"
     terminology:
       - Scientific Notation
       - Standard Form
@@ -87,10 +87,10 @@ learning_objectives:
 
     excellence_questions:
       []
-  - id: L05
+  - id: LO5
     topic: Integers
     slug: "lo-yr9-integers"
-    instruction: ""
+    instruction: "['Linking integers to BEDMAS can come up later in LO6', 'Checking for equivalence in expressions involving negative numbers', '[e.g. (-3)2 not -32, -2 + 3 =3 + (-2), 2 x (-3) = (-3) x 2 = (-2) x 3, etc]', 'Students should be able to confidently answer questions like the following:', 'What is the opposite of -7?', 'Circle the integers in the list: 3, -5.5, 0, 1/2.', 'True or False: A negative number plus a negative number is always', 'negative.', 'The temperature is -4°C. It rises by 10°C. What is the new', 'temperature? Show your calculation on a number line.', 'Calculate: -15 + 8 - (-3).', 'Adiver starts at -12 m. They ascend 3 m, then descend 5 m. If the', \"water surface is 0 m, what is the diver's final position? Write this as a\", 'single calculation.']"
     terminology:
       - Integer
       - Positive
@@ -108,10 +108,10 @@ learning_objectives:
 
     excellence_questions:
       []
-  - id: L06
+  - id: LO6
     topic: Powers & Roots
     slug: "lo-yr9-powers-roots"
-    instruction: ""
+    instruction: "['Mainly positive powers, negative powers when talking about repeat', 'division', 'Square and cube roots only —- Alpha only looks at square roots, so you', 'may need to introduce and explain cube roots', 'Expressing powers of 2 through 2\"° (i.e. 2, 4, 8, 16, 32, 64, etc)', \"Generalising about powers of 0 and 1 (i.e. a°= 1, a'= a)\", 'Estimating roots (e.g. √42 - 42 is between 36 and 49, so √42 is', 'between 6 and 7', 'Repeat division can be expressed as negative power', '(e.g. 10+3+3=10+37=10x37=10+9)']"
     terminology:
       - Power
       - Exponent
@@ -132,10 +132,10 @@ learning_objectives:
 
     excellence_questions:
       []
-  - id: L07
+  - id: LO7
     topic: GEMA (formerly BEDMAS)
     slug: "lo-yr9-gema-formerly-bedmas"
-    instruction: ""
+    instruction: "['G-Grouped (inside brackets, in power slot, inside root, etc)', 'E-Exponents', 'M-Multiplicative/Division', 'A-Addition/Subtraction', 'Emphasize that Multiplication and Division are completed left to', 'right, and Addition and Subtraction are completed left to right. They', 'are not separate steps in the order.', 'Students should know that GEMA can also be utilised when', 'simplifying algebraic expressions.']"
     terminology:
       - Operation
       - Order of Operations
@@ -153,10 +153,10 @@ learning_objectives:
 
     excellence_questions:
       []
-  - id: L08
+  - id: LO8
     topic: Substitution
     slug: "lo-yr9-substitution"
-    instruction: ""
+    instruction: "[]"
     terminology:
       - Variable
       - Expression
@@ -177,10 +177,10 @@ learning_objectives:
 
     excellence_questions:
       []
-  - id: L09
+  - id: LO9
     topic: Measurement prefixes
     slug: "lo-yr9-measurement-prefixes"
-    instruction: ""
+    instruction: "['The metric prefixes kilo–, mega–, giga–, and tera– signify a unit that is one thousand, one million, one billion, and one trillion times larger than the base unit.', 'The metric prefixes centi–, milli–, micro–, and nano– signify a unit one hundredth, one thousandth, one millionth, and one billionth the size of the base unit.', 'Derived units (e.g. cm2, km/h) reflect a relationship — a product or quotient — between two different measurements.']"
     terminology:
       - Base unit
       - Length (metre, m)
@@ -201,10 +201,10 @@ learning_objectives:
 
     excellence_questions:
       []
-  - id: L10
+  - id: LO10
     topic: Time
     slug: "lo-yr9-time"
-    instruction: ""
+    instruction: "['You should consider converting between time units and', 'speed=distance/time.']"
     terminology:
       - Analogue Clock
       - Digital Clock
@@ -224,10 +224,10 @@ learning_objectives:
 
     excellence_questions:
       []
-  - id: L11
+  - id: LO11
     topic: Reading scales
     slug: "lo-yr9-reading-scales"
-    instruction: ""
+    instruction: "[]"
     terminology:
       - Scale (measuring)
       - Interval
@@ -245,10 +245,10 @@ learning_objectives:
 
     excellence_questions:
       []
-  - id: L12
+  - id: LO12
     topic: Weight
     slug: "lo-yr9-weight"
-    instruction: ""
+    instruction: "[]"
     terminology:
       - Gram
       - Kilogram
@@ -267,10 +267,10 @@ learning_objectives:
 
     excellence_questions:
       []
-  - id: L13
+  - id: LO13
     topic: Capacity
     slug: "lo-yr9-capacity"
-    instruction: ""
+    instruction: "['Students should know that 1¢m?=1mL and 1000cm?=1000mL=1L']"
     terminology:
       - Capacity
       - Volume
@@ -289,10 +289,10 @@ learning_objectives:
 
     excellence_questions:
       []
-  - id: L14
+  - id: LO14
     topic: Converting between length units
     slug: "lo-yr9-converting-between-length-units"
-    instruction: ""
+    instruction: "[]"
     terminology:
       - Length
       - Millimetre
@@ -312,10 +312,10 @@ learning_objectives:
 
     excellence_questions:
       []
-  - id: L15
+  - id: LO15
     topic: Estimating lengths from scale drawings and photos
     slug: "lo-yr9-estimating-lengths-from-scale-drawings-and-photos"
-    instruction: ""
+    instruction: "[]"
     terminology:
       - Scale Drawing
       - Scale (ratio)
@@ -332,10 +332,10 @@ learning_objectives:
 
     excellence_questions:
       []
-  - id: L16
+  - id: LO16
     topic: Perimeter (shapes with straight edges only)
     slug: "lo-yr9-perimeter-shapes-with-straight-edges-only"
-    instruction: ""
+    instruction: "[]"
     terminology:
       - Perimeter
       - Side
@@ -360,10 +360,10 @@ learning_objectives:
 
     excellence_questions:
       []
-  - id: L17
+  - id: LO17
     topic: Area of basic shapes only (squares, rectangles, triangles, parallelograms, kite)
     slug: "lo-yr9-area-of-basic-shapes-only-squares-rectangles-triangles-parallelograms-kite"
-    instruction: ""
+    instruction: "['Formulas:', 'Square: Area = x2', 'Rectangle/Parallelogram: Area = bh', 'Triangle: Area = bh/2', 'Kite: Area = bh/2', 'Students should know how to be given an area and work backwards to find one of the parameters.']"
     terminology:
       - Area
       - Base
@@ -387,10 +387,10 @@ learning_objectives:
 
     excellence_questions:
       []
-  - id: L18
+  - id: LO18
     topic: "Area of L-shapes and composite shapes"
     slug: "lo-yr9-area-of-l-shapes-and-composite-shapes"
-    instruction: ""
+    instruction: "['Students must know how to “decompose” the shape into its smaller', 'sub-shapes.', 'Students should know of the addition AND subtraction methods.']"
     terminology:
       - Composite Shape
       - "L-Shape"
@@ -408,10 +408,10 @@ learning_objectives:
 
     excellence_questions:
       []
-  - id: L19
+  - id: LO19
     topic: Area of trapezium
     slug: "lo-yr9-area-of-trapezium"
-    instruction: ""
+    instruction: "['Formula = Area = = xh', 'Students should be able to explain how the trapezium formula is', 'derived from the area of a rectangle.']"
     terminology:
       - Trapezium
       - Parallel sides
@@ -430,10 +430,10 @@ learning_objectives:
 
     excellence_questions:
       []
-  - id: L20
+  - id: LO20
     topic: Circumference and area of circles
     slug: "lo-yr9-circumference-and-area-of-circles"
-    instruction: ""
+    instruction: "['Formula: Circumference = 2mr', 'Formula: Area = ttr?', 'Including quarter and half circles', 'The constant tis found by dividing a circle’s circumference by its', 'diameter.', 'Identifying and describe parts of a circle (specifically, chord,', 'diameter, radius, and circumference)']"
     terminology:
       - Circle
       - Circumference
@@ -453,10 +453,10 @@ learning_objectives:
 
     excellence_questions:
       []
-  - id: L21
+  - id: LO21
     topic: Volume of cubes and cuboids
     slug: "lo-yr9-volume-of-cubes-and-cuboids"
-    instruction: ""
+    instruction: "['Formula (cubes): Volume = x?', 'Formula (cuboids): Volume = bhl']"
     terminology:
       - Cube
       - Cuboid
@@ -474,10 +474,10 @@ learning_objectives:
 
     excellence_questions:
       []
-  - id: L22
+  - id: LO22
     topic: Volume of prism
     slug: "lo-yr9-volume-of-prism"
-    instruction: ""
+    instruction: "['Formula: Volume of Prism = Area of Face x Depth']"
     terminology:
       - Prism
       - "Cross-section"
@@ -496,10 +496,10 @@ learning_objectives:
 
     excellence_questions:
       []
-  - id: L23
+  - id: LO23
     topic: Liquid volume
     slug: "lo-yr9-liquid-volume"
-    instruction: ""
+    instruction: "['1Tem$=1mL', '1000 cm*=1L']"
     terminology:
       - Liquid volume
       - Displacement
@@ -516,10 +516,10 @@ learning_objectives:
 
     excellence_questions:
       []
-  - id: L24
+  - id: LO1
     topic: Forming Fractions
     slug: "lo-yr9-forming-fractions"
-    instruction: ""
+    instruction: "['Consider teacher LO1, LO2, and LO3 all together.', 'Utilise number line to aid instruction (if possible)']"
     terminology:
       - Fraction
       - Whole
@@ -538,10 +538,10 @@ learning_objectives:
 
     excellence_questions:
       []
-  - id: L25
+  - id: LO2
     topic: Equivalent Fractions
     slug: "lo-yr9-equivalent-fractions"
-    instruction: ""
+    instruction: "['Students need to know that multiplying a fraction by an', 'equivalent form of 1 (i.e. 2/2, 4/4, 100/100, etc) results in an', 'equivalent fraction.', 'Students should be able to use equivalent fractions to order', 'fractions.', 'Utilise number line to aid instruction (if possible).']"
     terminology:
       - Equivalent fraction
       - Equivalent
@@ -559,10 +559,10 @@ learning_objectives:
 
     excellence_questions:
       []
-  - id: L26
+  - id: LO3
     topic: Simplifying Fractions
     slug: "lo-yr9-simplifying-fractions"
-    instruction: ""
+    instruction: "['Utilise number line to aid instruction (if possible).']"
     terminology:
       - Simplest form
       - Simplifying
@@ -580,10 +580,10 @@ learning_objectives:
 
     excellence_questions:
       []
-  - id: L27
+  - id: LO4
     topic: Converting between improper fractions and mixed numbers
     slug: "lo-yr9-converting-between-improper-fractions-and-mixed-numbers"
-    instruction: ""
+    instruction: "[]"
     terminology:
       - Improper fraction
       - Mixed number
@@ -601,10 +601,10 @@ learning_objectives:
 
     excellence_questions:
       []
-  - id: L28
+  - id: LO5
     topic: Adding and subtracting fractions
     slug: "lo-yr9-adding-and-subtracting-fractions"
-    instruction: ""
+    instruction: "['When denominators are different, please consider teaching the', 'criss-cross smiley face methods AND manipulating the', 'denominators to form equivalent fractions with the same', 'denominators (i.e. timings a fraction by 4/4, etc).', 'Utilise number line to aid instruction (if possible).', 'Students need to knowthat when giving a fraction as an answer,', 'there should not be a negative number in the denominator (i.e.', '2/-3 should be simplified to -2/3).']"
     terminology:
       - Lowest common multiple
       - Common denominator
@@ -622,10 +622,10 @@ learning_objectives:
 
     excellence_questions:
       []
-  - id: L29
+  - id: LO6
     topic: Multiplying fractions
     slug: "lo-yr9-multiplying-fractions"
-    instruction: ""
+    instruction: "['Top x top, bottom x bottom', 'Top students should know how to cross-cancel, prior to', 'completing the multiplication.', 'Students should know that “of” refers to multiplication.', 'Utilise number line to aid instruction (if possible).', 'Students should connect multiplying and dividing decimals', 'with fraction (e.g. 0.3 x 0.15 = 3/10 x 15/200 = 3/10 x 3/20 =', '9/200).']"
     terminology:
       - Top (referring to numerator)
       - Bottom (referring to denominator)
@@ -644,10 +644,10 @@ learning_objectives:
 
     excellence_questions:
       []
-  - id: L30
+  - id: LO7
     topic: Reciprocals
     slug: "lo-yr9-reciprocals"
-    instruction: ""
+    instruction: "['Students must know that a number multiplied by its reciprocal', 'equals to 1. For example, 2/3 x 3/2 =1,5x 1/5=1, etc.', 'Students must know the reciprocal of a whole number', '(.e.5 > 5/1)']"
     terminology:
       - Reciprocal
       - Flip
@@ -670,10 +670,10 @@ learning_objectives:
 
     excellence_questions:
       []
-  - id: L31
+  - id: LO8
     topic: Dividing fractions
     slug: "lo-yr9-dividing-fractions"
-    instruction: ""
+    instruction: "['KCF rule for dividing fractions — keep, change, flip. Keep the first', 'fraction, change the operation, flip the second fraction.', 'Utilise number line to aid instruction (if possible).']"
     terminology:
       - Reciprocal
       - Flip
@@ -698,10 +698,10 @@ learning_objectives:
 
     excellence_questions:
       []
-  - id: L32
+  - id: LO9
     topic: Finding fractions of quantity
     slug: "lo-yr9-finding-fractions-of-quantity"
-    instruction: ""
+    instruction: "[]"
     terminology:
       - Of (of = multiplication)
     skills:
@@ -717,10 +717,10 @@ learning_objectives:
 
     excellence_questions:
       []
-  - id: L33
+  - id: LO10
     topic: Multiples & Lowest Common Multiples
     slug: "lo-yr9-multiples-lowest-common-multiples"
-    instruction: ""
+    instruction: "[]"
     terminology:
       - Multiple
       - Common multiple
@@ -738,10 +738,10 @@ learning_objectives:
 
     excellence_questions:
       []
-  - id: L34
+  - id: LO11
     topic: Factors, Highest Common Factors & Primes
     slug: "lo-yr9-factors-highest-common-factors-primes"
-    instruction: ""
+    instruction: "[]"
     terminology:
       - Factor
       - Common factor
@@ -760,10 +760,10 @@ learning_objectives:
 
     excellence_questions:
       []
-  - id: L35
+  - id: LO12
     topic: Irrational numbers
     slug: "lo-yr9-irrational-numbers"
-    instruction: ""
+    instruction: "['Students should know the difference between rational and', 'irrational numbers', 'Students must know that surds, pi, and e are irrational numbers', 'Students should know how to “group” together irrational', 'numbers']"
     terminology:
       - Rational number
       - Irrational number
@@ -784,10 +784,10 @@ learning_objectives:
 
     excellence_questions:
       []
-  - id: L36
+  - id: LO13
     topic: Forming expressions
     slug: "lo-yr9-forming-expressions"
-    instruction: ""
+    instruction: "['Please highlight that each “Letter” is a variable / unknown', 'Highlight what we can do with expressions in the real world']"
     terminology:
       - Expression (and how it differences from an equation)
       - Variable
@@ -806,10 +806,10 @@ learning_objectives:
 
     excellence_questions:
       []
-  - id: L37
+  - id: LO14
     topic: Multiplying Expressions (no powers)
     slug: "lo-yr9-multiplying-expressions-no-powers"
-    instruction: ""
+    instruction: "[]"
     terminology:
       - Expressions
       - Simplify
@@ -828,10 +828,10 @@ learning_objectives:
 
     excellence_questions:
       []
-  - id: L38
+  - id: LO15
     topic: Adding and Subtracting Expressions (Like Terms)
     slug: "lo-yr9-adding-and-subtracting-expressions-like-terms"
-    instruction: ""
+    instruction: "['Emphasise the definition of alike term, i.e. terms with the exact', 'same letters & powers.', 'Note, basic questions like 5x + 3x will be too easy for Achieved', 'marks in our assessments and developing evidence only. For it', 'to be achieved, there must be something extra going on —', 'perhaps integer skills (5x — 8x) or variables with numbers', '(3x + 5 + 3x + 3) or two different variables (3x + 4y -—x + 2y).']"
     terminology:
       - Like terms
       - Unlike terms
@@ -852,10 +852,10 @@ learning_objectives:
 
     excellence_questions:
       []
-  - id: L39
+  - id: LO16
     topic: Multiplying Expressions (with powers)
     slug: "lo-yr9-multiplying-expressions-with-powers"
-    instruction: ""
+    instruction: "[]"
     terminology:
       - Variable
       - Simplify
@@ -875,10 +875,10 @@ learning_objectives:
 
     excellence_questions:
       []
-  - id: L40
+  - id: LO17
     topic: Dividing Expressions
     slug: "lo-yr9-dividing-expressions"
-    instruction: ""
+    instruction: "['Students must knowthat a + a= 1 and would cancel each other', 'ut.']"
     terminology:
       - Simplify
       - Quotient
@@ -896,10 +896,10 @@ learning_objectives:
 
     excellence_questions:
       []
-  - id: L41
+  - id: LO18
     topic: Simplifying Expressions with GEMA / BEDMAS
     slug: "lo-yr9-simplifying-expressions-with-gema-bedmas"
-    instruction: ""
+    instruction: "[]"
     terminology:
       - GEMA
       - BEDMAS
@@ -917,10 +917,10 @@ learning_objectives:
 
     excellence_questions:
       []
-  - id: L42
+  - id: LO19
     topic: Expanding single brackets
     slug: "lo-yr9-expanding-single-brackets"
-    instruction: ""
+    instruction: "[]"
     terminology:
       - Single brackets
       - Expand
@@ -940,10 +940,10 @@ learning_objectives:
 
     excellence_questions:
       []
-  - id: L43
+  - id: LO20
     topic: Factorising single brackets
     slug: "lo-yr9-factorising-single-brackets"
-    instruction: ""
+    instruction: "['The textbook has the exercise in a weird order, please consider', 'the above order.', 'Try to encourage students to “divide by” the HCF, so they know', 'it’s the opposite to expanding which is multiplying.']"
     terminology:
       - Single brackets
       - Factorise
@@ -962,10 +962,10 @@ learning_objectives:
 
     excellence_questions:
       []
-  - id: L44
+  - id: LO21
     topic: Substitution (repeated from Term 1)
     slug: "lo-yr9-substitution-repeated-from-term-1"
-    instruction: ""
+    instruction: "[]"
     terminology:
       - Variable
       - Expression
@@ -993,10 +993,10 @@ learning_objectives:
 
     excellence_questions:
       []
-  - id: L45
+  - id: LO22
     topic: Defining Variables & Forming Equations
     slug: "lo-yr9-defining-variables-forming-equations"
-    instruction: ""
+    instruction: "[]"
     terminology:
       - Equation
       - Variable
@@ -1014,10 +1014,10 @@ learning_objectives:
 
     excellence_questions:
       []
-  - id: L46
+  - id: LO23
     topic: "Solving 1-step equations"
     slug: "lo-yr9-solving-1-step-equations"
-    instruction: ""
+    instruction: "['Students should know that “when operating on or writing', 'equations with fractions, fractions of magnitude greater than 1', 'are usually written as improper fractions”.', 'Students must know that fractions is division (x/3=x+3).', 'below our expectation of “achieved” students (which at a', 'minimum should be able to solve 2-step equations).', 'Evidence of algebra must be present for marks. For example:', '2x-1=7', '2x4-1=7 (no opposites here, no marks)', 'x=4']"
     terminology:
       - Solve
       - "1-step equation"
@@ -1036,10 +1036,10 @@ learning_objectives:
 
     excellence_questions:
       []
-  - id: L47
+  - id: LO24
     topic: "Solving 2-step equations"
     slug: "lo-yr9-solving-2-step-equations"
-    instruction: ""
+    instruction: "['Students must be aware of “invisible brackets” at the top of a', 'fraction.']"
     terminology:
       - Solve
       - "2-step equation"
@@ -1059,10 +1059,10 @@ learning_objectives:
 
     excellence_questions:
       []
-  - id: L48
+  - id: LO25
     topic: Solving equations with variables on both sides
     slug: "lo-yr9-solving-equations-with-variables-on-both-sides"
-    instruction: ""
+    instruction: "[]"
     terminology:
       - Variable on Both Sides
     skills:
@@ -1078,10 +1078,10 @@ learning_objectives:
 
     excellence_questions:
       []
-  - id: L49
+  - id: LO26
     topic: Forming and solving equations from context
     slug: "lo-yr9-forming-and-solving-equations-from-context"
-    instruction: ""
+    instruction: "['Students should 1) Define, 2) Form, 3) Solve, 4) State answer in context']"
     terminology:
       []
     skills:
@@ -1097,10 +1097,10 @@ learning_objectives:
 
     excellence_questions:
       []
-  - id: L50
+  - id: LO27
     topic: Solving inequalities
     slug: "lo-yr9-solving-inequalities"
-    instruction: ""
+    instruction: "['Nothing in textbook', 'Focus on 1-step, 2-step, or bracket inequalities', 'Students need to know about reversing sign when dividing by a negative']"
     terminology:
       - Inequality sign
       - Less than
@@ -1128,10 +1128,10 @@ learning_objectives:
 
     excellence_questions:
       []
-  - id: L51
+  - id: LO28
     topic: "Re-arranging formula"
     slug: "lo-yr9-re-arranging-formula"
-    instruction: ""
+    instruction: "['2-steps maximum in assessments']"
     terminology:
       - "Re-arrange"
       - Change the Subject
@@ -1156,10 +1156,10 @@ learning_objectives:
 
     excellence_questions:
       []
-  - id: L52
+  - id: LO1
     topic: Relationship between percentages, fractions, and decimals
     slug: "lo-yr9-relationship-between-percentages-fractions-and-decimals"
-    instruction: ""
+    instruction: "['Utilise number line to aid instruction.']"
     terminology:
       - Percentage
       - Fraction
@@ -1178,10 +1178,10 @@ learning_objectives:
 
     excellence_questions:
       []
-  - id: L53
+  - id: LO2
     topic: Forming percentages
     slug: "lo-yr9-forming-percentages"
-    instruction: ""
+    instruction: "['Utilise number line to aid instruction (if possible).', 'Students should know that “percentages are a way of', 'expressing a fraction out of 100”.']"
     terminology:
       - Percentage
     skills:
@@ -1197,10 +1197,10 @@ learning_objectives:
 
     excellence_questions:
       []
-  - id: L54
+  - id: LO3
     topic: Percentage of a given quantity
     slug: "lo-yr9-percentage-of-a-given-quantity"
-    instruction: ""
+    instruction: "['Should be taught in conjunction with financial mathematic', 'contexts (such as, simple interest, GST, etc)']"
     terminology:
       - Percentage of a given quantity
       - Of
@@ -1223,10 +1223,10 @@ learning_objectives:
 
     excellence_questions:
       []
-  - id: L55
+  - id: LO4
     topic: Increasing and decreasing by a given percentage
     slug: "lo-yr9-increasing-and-decreasing-by-a-given-percentage"
-    instruction: ""
+    instruction: "['Should be taught in conjunction with financial mathematic', 'contexts (such as, discounts, etc).']"
     terminology:
       - Percentage of a given quantity
       - Of
@@ -1249,10 +1249,10 @@ learning_objectives:
 
     excellence_questions:
       []
-  - id: L56
+  - id: LO5
     topic: Tools of chance
     slug: "lo-yr9-tools-of-chance"
-    instruction: ""
+    instruction: "['Itis assumed that students are familiar with coins, dice, and', 'playing cards.', 'Notes:', 'Ignore talks about coins landing on their side', 'Playing cards = 52, no jokers']"
     terminology:
       - Coins
       - Heads
@@ -1278,10 +1278,10 @@ learning_objectives:
 
     excellence_questions:
       []
-  - id: L57
+  - id: LO6
     topic: F/T
     slug: "lo-yr9-f-t"
-    instruction: ""
+    instruction: "['Please teach F/T (i.e. favourable outcomes/total outcomes)']"
     terminology:
       - Probability
       - Favourable outcomes
@@ -1298,10 +1298,10 @@ learning_objectives:
 
     excellence_questions:
       []
-  - id: L58
+  - id: LO7
     topic: Probabilities from experiments and statistical displays
     slug: "lo-yr9-probabilities-from-experiments-and-statistical-displays"
-    instruction: ""
+    instruction: "['Students must understand the difference between theoretical', 'and experimental probabilities']"
     terminology:
       - Theoretical probability
       - Experimental probability
@@ -1319,10 +1319,10 @@ learning_objectives:
 
     excellence_questions:
       []
-  - id: L59
+  - id: LO8
     topic: Trees/Combined Events
     slug: "lo-yr9-trees-combined-events"
-    instruction: ""
+    instruction: "['Students should know that you multiply when going across the', 'tree (“AND”) and you add outcomes (“OR”).', 'Note, Year 9s willbe given the tree, but they will be expected to', 'fillin the probabilities and describe the outcome for each', 'branch.']"
     terminology:
       - Combined events
       - Tree diagram
@@ -1341,10 +1341,10 @@ learning_objectives:
 
     excellence_questions:
       []
-  - id: L60
+  - id: LO9
     topic: "Two-way tables"
     slug: "lo-yr9-two-way-tables"
-    instruction: ""
+    instruction: "['Students should use F/T to determine the probability from given', 'tables.', 'This should include “how many”, probability, and conditional', 'probability questions.']"
     terminology:
       - "Two-Way Table"
       - Cells
@@ -1363,10 +1363,10 @@ learning_objectives:
 
     excellence_questions:
       []
-  - id: L61
+  - id: LO10
     topic: Expected Number
     slug: "lo-yr9-expected-number"
-    instruction: ""
+    instruction: "[]"
     terminology:
       - Expected number
       - Number of trials
@@ -1397,10 +1397,10 @@ learning_objectives:
 
     excellence_questions:
       []
-  - id: L62
+  - id: LO11
     topic: Investigation types
     slug: "lo-yr9-investigation-types"
-    instruction: ""
+    instruction: "['Students must be aware of the different investigation types:', 'ie}', 'Summary investigation (data collected about one group', 'and analysed - e.g. number of hours per week gaming by', 'Year 9 students)', 'Comparison investigation (compares variables across', 'two groups — box and whisker)', 'Relationship investigation (looks for a connection', 'between paired numerical or paired categorical', 'variables — scatter plot)', 'Time-series investigation (variables are tracked', 'vertime)']"
     terminology:
       - Summary investigation
       - Comparison investigation
@@ -1419,10 +1419,10 @@ learning_objectives:
 
     excellence_questions:
       []
-  - id: L63
+  - id: LO12
     topic: Types of data
     slug: "lo-yr9-types-of-data"
-    instruction: ""
+    instruction: "['Students must know the difference between', 'Qualitative/Quantitative, Discrete/Continuous,', 'Primary/Secondary.']"
     terminology:
       - Qualitative data
       - Quantitative data / Categorical
@@ -1443,10 +1443,10 @@ learning_objectives:
 
     excellence_questions:
       []
-  - id: L64
+  - id: LO13
     topic: Calculating averages and range
     slug: "lo-yr9-calculating-averages-and-range"
-    instruction: ""
+    instruction: "['Students must know that the median, means, and mode are the', '3 measures of centre.', 'Students must know that median can be one number, or the', 'mean of two numbers.', 'Students must also know that the range is maximum minus', 'minimum, and represents the variation within a data set.', 'Please discourage the word “average”.']"
     terminology:
       - Mean
       - Median
@@ -1465,10 +1465,10 @@ learning_objectives:
 
     excellence_questions:
       []
-  - id: L65
+  - id: LO14
     topic: Quartiles
     slug: "lo-yr9-quartiles"
-    instruction: ""
+    instruction: "['Students must know that the IQR is the variation we see in the', 'middle 50% of data.', 'Refresh documents refer to “Q1”, “Q2”, “Q3”', 'Interquartile range referred to as “Q3-Q1”']"
     terminology:
       - Minimum
       - Lower Quartile /Q1
@@ -1491,10 +1491,10 @@ learning_objectives:
 
     excellence_questions:
       []
-  - id: L66
+  - id: LO15
     topic: Selecting appropriate displays
     slug: "lo-yr9-selecting-appropriate-displays"
-    instruction: ""
+    instruction: "['Students must know these graphs:', 'Pie', 'Pictograms', 'Bar graph', 'Histogram', 'Scatter Plot', 'Dot plot', 'Box-and-whisker graph', 'Time series', 'Students must be able to link the type of data with the graph’s', 'displayed to justify why a graph is /is not appropriate.', 'variable(s) and who the data was collected from, and then,', 'depending on the type of visualisation, additional information', 'such as frequency, proportions, patterns or trends, and units', 'for numerical variables.']"
     terminology:
       - Statistical display
       - Qualitative data
@@ -1514,10 +1514,10 @@ learning_objectives:
 
     excellence_questions:
       []
-  - id: L67
+  - id: LO16
     topic: Interpreting pie charts & pictograms
     slug: "lo-yr9-interpreting-pie-charts-pictograms"
-    instruction: ""
+    instruction: "[]"
     terminology:
       - Pie chart
       - Pictogram
@@ -1535,10 +1535,10 @@ learning_objectives:
 
     excellence_questions:
       []
-  - id: L68
+  - id: LO17
     topic: Interpreting bar graphs & histograms
     slug: "lo-yr9-interpreting-bar-graphs-histograms"
-    instruction: ""
+    instruction: "[]"
     terminology:
       - Bargraph
       - Histograms
@@ -1555,10 +1555,10 @@ learning_objectives:
 
     excellence_questions:
       []
-  - id: L69
+  - id: LO18
     topic: Writing a statistical paragraph
     slug: "lo-yr9-writing-a-statistical-paragraph"
-    instruction: ""
+    instruction: "['paragraph - Students should use the 3-sentence structure:', 'Statistical statement (e.g. | see that the relationship', 'between height and arm span is positive).', 'Evidence from your graph (e.g. The relationship is', 'positive because we see that as a person’s height', 'increases, so does their arm span).', 'Links to contextual understanding.', '1 M410.- Awnanlhreinngtimn ecarine franka Daaeniirann:']"
     terminology:
       []
     skills:
@@ -1574,10 +1574,10 @@ learning_objectives:
 
     excellence_questions:
       []
-  - id: L70
+  - id: LO19
     topic: "Analysing time series graphs - TSN"
     slug: "lo-yr9-analysing-time-series-graphs-tsn"
-    instruction: ""
+    instruction: "['Students must know what TSN stands for.', 'T=Long-term trend = Increasing or decreasing (students are', 'WRONG to use positive/negative, up/down, etc)', '$=Seasonality', 'N=Noise = Unusual points']"
     terminology:
       - Time series
       - "Long-term trend"
@@ -1596,10 +1596,10 @@ learning_objectives:
 
     excellence_questions:
       []
-  - id: L71
+  - id: LO20
     topic: "Analysing scatter plots (i.e. bivariate) - TARSOG"
     slug: "lo-yr9-analysing-scatter-plots-i-e-bivariate-tarsog"
-    instruction: ""
+    instruction: "['Students must know what TARSOG stands for.', 'T=Trend = Linear or Non-linear', 'A=Association = Positive or Negative', 'R=Relationship =Weak, Moderate, or Strong', '$=Scatter = Constant or Non-constant', 'O= Outlier', 'G=Grouping']"
     terminology:
       - Scatter plot
       - Trend
@@ -1621,10 +1621,10 @@ learning_objectives:
 
     excellence_questions:
       []
-  - id: L72
+  - id: LO21
     topic: "Comparing box-and-whisker graphs - CSSI"
     slug: "lo-yr9-comparing-box-and-whisker-graphs-cssi"
-    instruction: ""
+    instruction: "['Students must know what CSSI standard for.', 'C=Centre = Median, mean', '§=Shape = Left skew, right skew, bell curve', '$§=Spread=IQR, range', '|=Interesting = Outliers, Groups, etc']"
     terminology:
       - "Box-and-whisker graphs"
       - Centre
@@ -1646,10 +1646,10 @@ learning_objectives:
 
     excellence_questions:
       []
-  - id: L73
+  - id: LO22
     topic: Misleading graphs
     slug: "lo-yr9-misleading-graphs"
-    instruction: ""
+    instruction: "['Student should know about the following 5 things to make a', '“good graph”', 'Goodtitle', 'Clearly labelled axis', 'Simplicity', 'Clear data points', 'Uninterrupted axis', 'Agood data visualisation should allow viewers to discern the', 'variable(s) and who the data was collected from, and then,', 'depending on the type of visualisation, additional information', 'such as frequency, proportions, patterns or trends, and units', 'for numerical variables.']"
     terminology:
       []
     skills:
@@ -1665,10 +1665,10 @@ learning_objectives:
 
     excellence_questions:
       []
-  - id: L74
+  - id: LO23
     topic: Planning and collecting multivariate data
     slug: "lo-yr9-planning-and-collecting-multivariate-data"
-    instruction: ""
+    instruction: "['This must be in response to a statistical question.', 'Must include at least one categorical variable and at least one', 'numerical variable.']"
     terminology:
       - Multivariate data
       - Sample
@@ -1689,10 +1689,10 @@ learning_objectives:
 
     excellence_questions:
       []
-  - id: L75
+  - id: LO1
     topic: Extrapolating linear, quadratic, and exponential patterns
     slug: "lo-yr9-extrapolating-linear-quadratic-and-exponential-patterns"
-    instruction: ""
+    instruction: "[]"
     terminology:
       - Sequence
       - Term
@@ -1712,10 +1712,10 @@ learning_objectives:
 
     excellence_questions:
       []
-  - id: L76
+  - id: LO2
     topic: Identifying linear, quadratic, and exponential patterns
     slug: "lo-yr9-identifying-linear-quadratic-and-exponential-patterns"
-    instruction: ""
+    instruction: "['Students must know how to use the first and second differences to justify the type of pattern.', 'Linear = same first difference', 'Quadratic = same second difference', 'Exponential = difference second difference']"
     terminology:
       - First difference
       - Second difference
@@ -1735,10 +1735,10 @@ learning_objectives:
 
     excellence_questions:
       []
-  - id: L77
+  - id: LO3
     topic: Spatial patterns (including drawing next pattern and converting to pattern)
     slug: "lo-yr9-spatial-patterns-including-drawing-next-pattern-and-converting-to-pattern"
-    instruction: ""
+    instruction: "[]"
     terminology:
       - Spatial pattern
     skills:
@@ -1754,10 +1754,10 @@ learning_objectives:
 
     excellence_questions:
       []
-  - id: L78
+  - id: LO4
     topic: Determining nth term of pattern or spatial pattern
     slug: "lo-yr9-determining-nth-term-of-pattern-or-spatial-pattern"
-    instruction: ""
+    instruction: "['Students should be able to form the nth term.', 'Students should be able to use the nth term to calculate the term or term number.']"
     terminology:
       - Change / gradient
       - Constant
@@ -1776,10 +1776,10 @@ learning_objectives:
 
     excellence_questions:
       []
-  - id: L79
+  - id: LO5
     topic: "Understanding Cartesian plane and co-ordinates"
     slug: "lo-yr9-understanding-cartesian-plane-and-co-ordinates"
-    instruction: ""
+    instruction: "['Students must know that any point of a cartesian plane should be expressed as a co-ordinate in (x,y) form.', '“Y to the Sky”']"
     terminology:
       - Cartesian plane
       - "X-axis"
@@ -1798,10 +1798,10 @@ learning_objectives:
 
     excellence_questions:
       []
-  - id: L80
+  - id: LO6
     topic: "Drawing straight-line from given equation"
     slug: "lo-yr9-drawing-straight-line-from-given-equation"
-    instruction: ""
+    instruction: "['Students should know how to convert y=mx+c to a table, and then plot the co-ordinates from the table.', 'Students should also know how to use y=mx+c to find the start point on the y-axis and use the gradient to plot the rest of the line.']"
     terminology:
       - Gradient
       - "Y-intercept"
@@ -1820,10 +1820,10 @@ learning_objectives:
 
     excellence_questions:
       []
-  - id: L81
+  - id: LO7
     topic: Gradient
     slug: "lo-yr9-gradient"
-    instruction: ""
+    instruction: "['Students should know how to use rise/run to determine the gradient of a given straight-line.', 'In relation to graphs, students must know:', 'A positive gradient slopes upwards when the graph is read from left to right.', 'A negative gradient slopes downwards when the graph is read from left to right.', 'A horizontal line has a gradient equal to zero. Its equation will be y = c.', 'Students must also be able to find the gradient from a table or given pattern']"
     terminology:
       - Gradient
       - Rise
@@ -1841,10 +1841,10 @@ learning_objectives:
 
     excellence_questions:
       []
-  - id: L82
+  - id: LO8
     topic: "Finding x- and y-intercepts"
     slug: "lo-yr9-finding-x-and-y-intercepts"
-    instruction: ""
+    instruction: "['Students should know that the y-intercept is (0,y) and the x-intercept is (x,0)']"
     terminology:
       - "X-intercept"
       - "Y-intercept"
@@ -1861,10 +1861,10 @@ learning_objectives:
 
     excellence_questions:
       []
-  - id: L83
+  - id: LO9
     topic: Forming equations of given straight line graph (using y=mx+c)
     slug: "lo-yr9-forming-equations-of-given-straight-line-graph-using-y-mx-c"
-    instruction: ""
+    instruction: "['Students should be able to write the equation in y=mx+c form for a given graph.', 'Students should be able to describe the gradient and y-intercept of a graph from its equation.']"
     terminology:
       - Gradient
       - "Y-intercept"
@@ -1881,10 +1881,10 @@ learning_objectives:
 
     excellence_questions:
       []
-  - id: L84
+  - id: LO10
     topic: Forming equations of horizontal and vertical lines
     slug: "lo-yr9-forming-equations-of-horizontal-and-vertical-lines"
-    instruction: ""
+    instruction: "['Students should know x=c, y=x form.', 'Better students should be able to describe the gradient properties of these lines.']"
     terminology:
       - Horizontal line
       - Vertical line
@@ -1901,10 +1901,10 @@ learning_objectives:
 
     excellence_questions:
       []
-  - id: L85
+  - id: LO11
     topic: Finding point of intersection of two lines
     slug: "lo-yr9-finding-point-of-intersection-of-two-lines"
-    instruction: ""
+    instruction: "['Students need to know how to visually find the point of intersection. Better students should know how to algebraically find this point.', 'Students should know how to utilise this point to solve problems.']"
     terminology:
       - Point of intersection
     skills:
@@ -1920,10 +1920,10 @@ learning_objectives:
 
     excellence_questions:
       []
-  - id: L86
+  - id: LO12
     topic: Drawing parabola from given equation
     slug: "lo-yr9-drawing-parabola-from-given-equation"
-    instruction: ""
+    instruction: "['Students are expected to use a table and plot co-ordinates of a given parabola equation.']"
     terminology:
       - Parabola
       - Quadratic
@@ -1940,10 +1940,10 @@ learning_objectives:
 
     excellence_questions:
       []
-  - id: L87
+  - id: LO13
     topic: Using tables to explore patterns and graphs
     slug: "lo-yr9-using-tables-to-explore-patterns-and-graphs"
-    instruction: ""
+    instruction: "[]"
     terminology:
       []
     skills:
@@ -1959,10 +1959,10 @@ learning_objectives:
 
     excellence_questions:
       []
-  - id: L88
+  - id: LO14
     topic: Applying straight line graphs to solve problems
     slug: "lo-yr9-applying-straight-line-graphs-to-solve-problems"
-    instruction: ""
+    instruction: "[]"
     terminology:
       []
     skills:
@@ -1978,10 +1978,10 @@ learning_objectives:
 
     excellence_questions:
       []
-  - id: L89
+  - id: LO1
     topic: Naming angles
     slug: "lo-yr9-naming-angles"
-    instruction: ""
+    instruction: "['Students should be able to name an angle (∠ABC).']"
     terminology:
       - Angle
       - Vertex
@@ -2001,10 +2001,10 @@ learning_objectives:
 
     excellence_questions:
       []
-  - id: L90
+  - id: LO2
     topic: Angles around a point
     slug: "lo-yr9-angles-around-a-point"
-    instruction: ""
+    instruction: "['Students must include geometric reasoning.', 'Developing students are students can figure out the angles, but not communicate their reasoning.', 'Geometric reasoning to be included in exam – check our last’s year EYE.']"
     terminology:
       - Angle around a point
       - Full revolution
@@ -2021,10 +2021,10 @@ learning_objectives:
 
     excellence_questions:
       []
-  - id: L91
+  - id: LO3
     topic: Angles on a straight line
     slug: "lo-yr9-angles-on-a-straight-line"
-    instruction: ""
+    instruction: "[]"
     terminology:
       - Straight line
       - Angles on a straight line
@@ -2041,10 +2041,10 @@ learning_objectives:
 
     excellence_questions:
       []
-  - id: L92
+  - id: LO4
     topic: Vertically opposite angles
     slug: "lo-yr9-vertically-opposite-angles"
-    instruction: ""
+    instruction: "[]"
     terminology:
       - Vertically opposite angles
       - Bisecting lines
@@ -2061,10 +2061,10 @@ learning_objectives:
 
     excellence_questions:
       []
-  - id: L93
+  - id: LO5
     topic: Interior angles of a triangle
     slug: "lo-yr9-interior-angles-of-a-triangle"
-    instruction: ""
+    instruction: "['Students must know the angle properties of isosceles and equilateral triangles.']"
     terminology:
       - Triangle
       - Scalene triangle
@@ -2083,10 +2083,10 @@ learning_objectives:
 
     excellence_questions:
       []
-  - id: L94
+  - id: LO6
     topic: Parallel line rules
     slug: "lo-yr9-parallel-line-rules"
-    instruction: ""
+    instruction: "['This should include correct terminology about parallel lines and transversal lines (aka bisecting lines)', 'This should also include verifying that two lines are parallel.']"
     terminology:
       - Parallel lines
       - Bisecting line / transversal line
@@ -2106,10 +2106,10 @@ learning_objectives:
 
     excellence_questions:
       []
-  - id: L95
+  - id: LO7
     topic: Regular/irregular polygon
     slug: "lo-yr9-regular-irregular-polygon"
-    instruction: ""
+    instruction: "['Students should know to use 180(n-2) to solve problems in relation to irregular polygons.', 'Students should know that internal angles of a regular polygon are equal.', 'Note, exterior angles rules officially cover in Year 9, however students may be expected to apply a basic straight-line rule to solve these problems (if they come up).']"
     terminology:
       - Regular polygon
       - Irregular polygon
@@ -2127,10 +2127,10 @@ learning_objectives:
 
     excellence_questions:
       []
-  - id: L96
+  - id: LO8
     topic: Pythagoras theory finding short and long sides
     slug: "lo-yr9-pythagoras-theory-finding-short-and-long-sides"
-    instruction: ""
+    instruction: "['Do not expect all students to do it algebraically.', 'Please teach assessable methods to relevant students.']"
     terminology:
       - Pythagoras’ theory
       - Short side
@@ -2150,10 +2150,10 @@ learning_objectives:
 
     excellence_questions:
       []
-  - id: L97
+  - id: LO9
     topic: Applying Pythagoras’ theory
     slug: "lo-yr9-applying-pythagoras-theory"
-    instruction: ""
+    instruction: "['Students should see how Pythagoras’ theory can be applied to:', 'Isosceles triangles and rectangles, and', 'Proving whether a triangle is a right-angle triangle.']"
     terminology:
       []
     skills:
@@ -2169,10 +2169,10 @@ learning_objectives:
 
     excellence_questions:
       []
-  - id: L98
+  - id: LO10
     topic: Pythagorean triples
     slug: "lo-yr9-pythagorean-triples"
-    instruction: ""
+    instruction: "['If (a,b,c) is a Pythagorean triple, then so is (ka,kb,kc), where k is a positive integer.', 'Finding another Pythagorean triple from a given triple.']"
     terminology:
       - Pythagorean triple
     skills:
@@ -2188,10 +2188,10 @@ learning_objectives:
 
     excellence_questions:
       []
-  - id: L99
+  - id: LO11
     topic: Transformation (Translation, reflection, enlargement)
     slug: "lo-yr9-transformation-translation-reflection-enlargement"
-    instruction: ""
+    instruction: "['Rotation is limited to multiples of 90 degrees']"
     terminology:
       []
     skills:
@@ -2207,10 +2207,10 @@ learning_objectives:
 
     excellence_questions:
       []
-  - id: L100
+  - id: LO12
     topic: Representing and constructing 3D shapes
     slug: "lo-yr9-representing-and-constructing-3d-shapes"
-    instruction: ""
+    instruction: "['Focusing on rectangular prisms, triangular prisms, and pyramids']"
     terminology:
       - Nets
       - Plan view
