@@ -1,135 +1,2236 @@
 year_level: 9
 learning_objectives:
   - id: L01
-    topic: Forming fractions
-    instruction: Write each as a fraction.
+    topic: Place Values and Decimals
+    slug: "lo-yr9-place-values-and-decimals"
+    instruction: ""
     terminology:
-      - fraction
-      - whole
-      - numerator
-      - denominator
+      - Place value
+      - Decimal point
+      - Tenths
+      - Hundredths
+      - Digit
     skills:
-      - form fractions from context
+      []
     question_types:
-      - part of a whole
-      - context problems
+      []
 
     foundation_questions:
-      - \item 3 out of 8
-      - \item 4 out of 10
-      - \item 7 out of 20
-      - \item 5 out of 12
-      - \item 2 out of 6
-      - \item 1 out of 9
-      - \item 6 out of 15
-      - \item 8 out of 14
-      - \item 3 out of 11
-      - \item 9 out of 16
-      - \item 2 out of 5
-      - \item 4 out of 13
-
-      - |
-        \item {
-        \begin{tikzpicture}[scale=1]
-        \foreach \i in {0,...,5} {
-          \coordinate (P\i) at ({60*\i}:1.4);
-        }
-        \coordinate (O) at (0,0);
-        \fill[green!60!black] (O)--(P0)--(P1)--cycle;
-        \fill[green!60!black] (O)--(P1)--(P2)--cycle;
-        \draw (P0)--(P1)--(P2)--(P3)--(P4)--(P5)--cycle;
-        \foreach \i in {0,...,5} \draw (O)--(P\i);
-        \end{tikzpicture}
-        }
-
-      - |
-        \item {
-        \begin{tikzpicture}[scale=1.1]
-        \coordinate (A) at (0,0);
-        \coordinate (B) at (2,0);
-        \coordinate (C) at (1,1.8);
-        \coordinate (M) at (1,0.6);
-        \fill[purple!30] (A)--(C)--(M)--cycle;
-        \draw (A)--(B)--(C)--cycle;
-        \draw (A)--(M)--(B);
-        \draw (C)--(M);
-        \end{tikzpicture}
-        }
-
-      - |
-        \item {
-        \begin{tikzpicture}[scale=1]
-        \def\r{1.4}
-        \foreach \i in {0,...,9} {
-          \pgfmathsetmacro{\a}{90-36*\i}
-          \pgfmathsetmacro{\b}{90-36*(\i+1)}
-          \ifnum\i<4
-            \fill[orange!35] (0,0)--(\a:\r) arc (\a:\b:\r)--cycle;
-          \fi
-        }
-        \foreach \i in {0,...,9} {
-          \draw (0,0)--({90-36*\i}:\r);
-        }
-        \draw (0,0) circle (\r);
-        \end{tikzpicture}
-        }
-
-      - |
-        \item {
-        \begin{tikzpicture}[scale=0.9]
-        \draw (0,0) rectangle (4,2);
-        \draw (2,0)--(2,2);
-        \draw (0,1)--(4,1);
-        \coordinate (C) at (2,1);
-        \foreach \p in {(0,2),(0,0),(4,2),(4,0)} \draw \p -- (C);
-        \fill[orange!50] (0,2)--(2,1)--(0,1)--cycle;
-        \fill[orange!50] (2,1)--(4,2)--(4,1)--cycle;
-        \fill[orange!50] (0,0)--(2,1)--(0,1)--cycle;
-        \fill[orange!50] (2,0)--(2,1)--(4,0)--cycle;
-        \end{tikzpicture}
-        }
+      []
 
     proficient_questions:
-      - \item 5 of 12 shaded
-      - \item 9 of 36 away
-      - \item 7 of 20 spins
-      - \item 17 of 48 faulty
-      - \item 18 of 25 full
-      - \item 13 of 32 prefer cats
-      - \item 19 of 27 covered
-      - \item 16 of 45 bikes
-      - \item 7 of 18 used
-      - \item 23 of 50 coloured
-      - \item 11 of 29 shoes
-      - \item 21 of 34 taken
+      []
 
     excellence_questions:
-      # unit_conversion
-      - \item 2 days of 1 week
-      - \item 40p of £2
-      - \item 5 min of 1 hour
-      - \item 300g of 2kg
+      []
+  - id: L02
+    topic: Rounding to Decimal Points
+    slug: "lo-yr9-rounding-to-decimal-points"
+    instruction: ""
+    terminology:
+      - Rounding
+      - Decimal place
+      - Estimate
+    skills:
+      []
+    question_types:
+      []
 
-      # whole_inferred
-      - \item 8 red, 12 blue, red?
-      - \item 5 cats, 7 dogs, cats?
-      - \item 9 boys, 11 girls, boys?
-      - \item 6 apples, 4 eaten, eaten?
+    foundation_questions:
+      []
 
-      # fraction_of_remainder
-      - \item 12 total, 5 used, fraction left?
-      - \item 20 total, 8 gone, fraction remaining?
-      - \item 15 total, 6 eaten, fraction not eaten?
-      - \item 18 total, 7 broken, fraction not broken?
+    proficient_questions:
+      []
 
-      # word_problem
-      - \item 30 students, 18 present, fraction present?
-      - \item 24 seats, 9 empty, fraction empty?
-      - \item 40 tickets, 25 sold, fraction sold?
-      - \item 50 marbles, 20 blue, fraction blue?
+    excellence_questions:
+      []
+  - id: L03
+    topic: Multiplying and dividing by 10,100,1000
+    slug: "lo-yr9-multiplying-and-dividing-by-10-100-1000"
+    instruction: ""
+    terminology:
+      - Power of ten
+      - Decimal shift
+    skills:
+      []
+    question_types:
+      []
 
-      # error_check
-      - \item $3/8 = 5/10$ correct?
-      - \item $6/12 = 1/3$ correct?
-      - \item $4/9 = 8/18$ correct?
-      - \item $10/20 = 2/5$ correct?
+    foundation_questions:
+      []
+
+    proficient_questions:
+      []
+
+    excellence_questions:
+      []
+  - id: L04
+    topic: Scientific notation
+    slug: "lo-yr9-scientific-notation"
+    instruction: ""
+    terminology:
+      - Scientific Notation
+      - Standard Form
+      - Base Number
+      - Exponent
+      - Power
+    skills:
+      []
+    question_types:
+      []
+
+    foundation_questions:
+      []
+
+    proficient_questions:
+      []
+
+    excellence_questions:
+      []
+  - id: L05
+    topic: Integers
+    slug: "lo-yr9-integers"
+    instruction: ""
+    terminology:
+      - Integer
+      - Positive
+      - Negative
+    skills:
+      []
+    question_types:
+      []
+
+    foundation_questions:
+      []
+
+    proficient_questions:
+      []
+
+    excellence_questions:
+      []
+  - id: L06
+    topic: Powers & Roots
+    slug: "lo-yr9-powers-roots"
+    instruction: ""
+    terminology:
+      - Power
+      - Exponent
+      - Base
+      - Squared
+      - Cubed
+      - Square Root
+    skills:
+      []
+    question_types:
+      []
+
+    foundation_questions:
+      []
+
+    proficient_questions:
+      []
+
+    excellence_questions:
+      []
+  - id: L07
+    topic: GEMA (formerly BEDMAS)
+    slug: "lo-yr9-gema-formerly-bedmas"
+    instruction: ""
+    terminology:
+      - Operation
+      - Order of Operations
+      - GEMA
+    skills:
+      []
+    question_types:
+      []
+
+    foundation_questions:
+      []
+
+    proficient_questions:
+      []
+
+    excellence_questions:
+      []
+  - id: L08
+    topic: Substitution
+    slug: "lo-yr9-substitution"
+    instruction: ""
+    terminology:
+      - Variable
+      - Expression
+      - Substitute
+      - Evaluate
+      - Pronumeral
+      - "Co-efficient"
+    skills:
+      []
+    question_types:
+      []
+
+    foundation_questions:
+      []
+
+    proficient_questions:
+      []
+
+    excellence_questions:
+      []
+  - id: L09
+    topic: Measurement prefixes
+    slug: "lo-yr9-measurement-prefixes"
+    instruction: ""
+    terminology:
+      - Base unit
+      - Length (metre, m)
+      - Mass (gram, g)
+      - Area (square metres, m?)
+      - Volume (cubic centimetres, cm* or litres, L)
+      - Speed (metres per second, m/s)
+    skills:
+      []
+    question_types:
+      []
+
+    foundation_questions:
+      []
+
+    proficient_questions:
+      []
+
+    excellence_questions:
+      []
+  - id: L10
+    topic: Time
+    slug: "lo-yr9-time"
+    instruction: ""
+    terminology:
+      - Analogue Clock
+      - Digital Clock
+      - "24-Hour Time"
+      - AM
+      - PM
+    skills:
+      []
+    question_types:
+      []
+
+    foundation_questions:
+      []
+
+    proficient_questions:
+      []
+
+    excellence_questions:
+      []
+  - id: L11
+    topic: Reading scales
+    slug: "lo-yr9-reading-scales"
+    instruction: ""
+    terminology:
+      - Scale (measuring)
+      - Interval
+      - Estimate
+    skills:
+      []
+    question_types:
+      []
+
+    foundation_questions:
+      []
+
+    proficient_questions:
+      []
+
+    excellence_questions:
+      []
+  - id: L12
+    topic: Weight
+    slug: "lo-yr9-weight"
+    instruction: ""
+    terminology:
+      - Gram
+      - Kilogram
+      - Tonne
+      - Scale (measuring)
+    skills:
+      []
+    question_types:
+      []
+
+    foundation_questions:
+      []
+
+    proficient_questions:
+      []
+
+    excellence_questions:
+      []
+  - id: L13
+    topic: Capacity
+    slug: "lo-yr9-capacity"
+    instruction: ""
+    terminology:
+      - Capacity
+      - Volume
+      - Millilitre
+      - Litre
+    skills:
+      []
+    question_types:
+      []
+
+    foundation_questions:
+      []
+
+    proficient_questions:
+      []
+
+    excellence_questions:
+      []
+  - id: L14
+    topic: Converting between length units
+    slug: "lo-yr9-converting-between-length-units"
+    instruction: ""
+    terminology:
+      - Length
+      - Millimetre
+      - Centimetre
+      - Metre
+      - Kilometre
+    skills:
+      []
+    question_types:
+      []
+
+    foundation_questions:
+      []
+
+    proficient_questions:
+      []
+
+    excellence_questions:
+      []
+  - id: L15
+    topic: Estimating lengths from scale drawings and photos
+    slug: "lo-yr9-estimating-lengths-from-scale-drawings-and-photos"
+    instruction: ""
+    terminology:
+      - Scale Drawing
+      - Scale (ratio)
+    skills:
+      []
+    question_types:
+      []
+
+    foundation_questions:
+      []
+
+    proficient_questions:
+      []
+
+    excellence_questions:
+      []
+  - id: L16
+    topic: Perimeter (shapes with straight edges only)
+    slug: "lo-yr9-perimeter-shapes-with-straight-edges-only"
+    instruction: ""
+    terminology:
+      - Perimeter
+      - Side
+      - Polygon
+      - Regular polygon
+      - Irregular polygon
+      - Square
+      - Rectangle
+      - Parallelogram
+      - Triangle
+      - Kite
+    skills:
+      []
+    question_types:
+      []
+
+    foundation_questions:
+      []
+
+    proficient_questions:
+      []
+
+    excellence_questions:
+      []
+  - id: L17
+    topic: Area of basic shapes only (squares, rectangles, triangles, parallelograms, kite)
+    slug: "lo-yr9-area-of-basic-shapes-only-squares-rectangles-triangles-parallelograms-kite"
+    instruction: ""
+    terminology:
+      - Area
+      - Base
+      - Perpendicular height
+      - Square units
+      - Square
+      - Rectangle
+      - Parallelogram
+      - Triangle
+      - Kite
+    skills:
+      []
+    question_types:
+      []
+
+    foundation_questions:
+      []
+
+    proficient_questions:
+      []
+
+    excellence_questions:
+      []
+  - id: L18
+    topic: "Area of L-shapes and composite shapes"
+    slug: "lo-yr9-area-of-l-shapes-and-composite-shapes"
+    instruction: ""
+    terminology:
+      - Composite Shape
+      - "L-Shape"
+      - Decompose (or Break Apart)
+    skills:
+      []
+    question_types:
+      []
+
+    foundation_questions:
+      []
+
+    proficient_questions:
+      []
+
+    excellence_questions:
+      []
+  - id: L19
+    topic: Area of trapezium
+    slug: "lo-yr9-area-of-trapezium"
+    instruction: ""
+    terminology:
+      - Trapezium
+      - Parallel sides
+      - Perpendicular height
+      - Average
+    skills:
+      []
+    question_types:
+      []
+
+    foundation_questions:
+      []
+
+    proficient_questions:
+      []
+
+    excellence_questions:
+      []
+  - id: L20
+    topic: Circumference and area of circles
+    slug: "lo-yr9-circumference-and-area-of-circles"
+    instruction: ""
+    terminology:
+      - Circle
+      - Circumference
+      - Radius
+      - Diameter
+      - Area
+    skills:
+      []
+    question_types:
+      []
+
+    foundation_questions:
+      []
+
+    proficient_questions:
+      []
+
+    excellence_questions:
+      []
+  - id: L21
+    topic: Volume of cubes and cuboids
+    slug: "lo-yr9-volume-of-cubes-and-cuboids"
+    instruction: ""
+    terminology:
+      - Cube
+      - Cuboid
+      - Volume
+    skills:
+      []
+    question_types:
+      []
+
+    foundation_questions:
+      []
+
+    proficient_questions:
+      []
+
+    excellence_questions:
+      []
+  - id: L22
+    topic: Volume of prism
+    slug: "lo-yr9-volume-of-prism"
+    instruction: ""
+    terminology:
+      - Prism
+      - "Cross-section"
+      - Areaof face
+      - Depth
+    skills:
+      []
+    question_types:
+      []
+
+    foundation_questions:
+      []
+
+    proficient_questions:
+      []
+
+    excellence_questions:
+      []
+  - id: L23
+    topic: Liquid volume
+    slug: "lo-yr9-liquid-volume"
+    instruction: ""
+    terminology:
+      - Liquid volume
+      - Displacement
+    skills:
+      []
+    question_types:
+      []
+
+    foundation_questions:
+      []
+
+    proficient_questions:
+      []
+
+    excellence_questions:
+      []
+  - id: L24
+    topic: Forming Fractions
+    slug: "lo-yr9-forming-fractions"
+    instruction: ""
+    terminology:
+      - Fraction
+      - Whole
+      - Numerator
+      - Denominator
+    skills:
+      []
+    question_types:
+      []
+
+    foundation_questions:
+      []
+
+    proficient_questions:
+      []
+
+    excellence_questions:
+      []
+  - id: L25
+    topic: Equivalent Fractions
+    slug: "lo-yr9-equivalent-fractions"
+    instruction: ""
+    terminology:
+      - Equivalent fraction
+      - Equivalent
+      - Factor
+    skills:
+      []
+    question_types:
+      []
+
+    foundation_questions:
+      []
+
+    proficient_questions:
+      []
+
+    excellence_questions:
+      []
+  - id: L26
+    topic: Simplifying Fractions
+    slug: "lo-yr9-simplifying-fractions"
+    instruction: ""
+    terminology:
+      - Simplest form
+      - Simplifying
+      - Highest common factor
+    skills:
+      []
+    question_types:
+      []
+
+    foundation_questions:
+      []
+
+    proficient_questions:
+      []
+
+    excellence_questions:
+      []
+  - id: L27
+    topic: Converting between improper fractions and mixed numbers
+    slug: "lo-yr9-converting-between-improper-fractions-and-mixed-numbers"
+    instruction: ""
+    terminology:
+      - Improper fraction
+      - Mixed number
+      - Remainder
+    skills:
+      []
+    question_types:
+      []
+
+    foundation_questions:
+      []
+
+    proficient_questions:
+      []
+
+    excellence_questions:
+      []
+  - id: L28
+    topic: Adding and subtracting fractions
+    slug: "lo-yr9-adding-and-subtracting-fractions"
+    instruction: ""
+    terminology:
+      - Lowest common multiple
+      - Common denominator
+      - Equivalent fractions
+    skills:
+      []
+    question_types:
+      []
+
+    foundation_questions:
+      []
+
+    proficient_questions:
+      []
+
+    excellence_questions:
+      []
+  - id: L29
+    topic: Multiplying fractions
+    slug: "lo-yr9-multiplying-fractions"
+    instruction: ""
+    terminology:
+      - Top (referring to numerator)
+      - Bottom (referring to denominator)
+      - "Cross-cancellation"
+      - Of
+    skills:
+      []
+    question_types:
+      []
+
+    foundation_questions:
+      []
+
+    proficient_questions:
+      []
+
+    excellence_questions:
+      []
+  - id: L30
+    topic: Reciprocals
+    slug: "lo-yr9-reciprocals"
+    instruction: ""
+    terminology:
+      - Reciprocal
+      - Flip
+      - Students should be able to confidently answer questions like the
+      - "following:"
+      - What is the reciprocal of 2/3?
+      - What number must you multiply 4 by to get the answer 1?
+      - Write a general rule for the reciprocal of a fraction a/b.
+      - "Extension: Explain why 0 (zero) does not have a reciprocal."
+    skills:
+      []
+    question_types:
+      []
+
+    foundation_questions:
+      []
+
+    proficient_questions:
+      []
+
+    excellence_questions:
+      []
+  - id: L31
+    topic: Dividing fractions
+    slug: "lo-yr9-dividing-fractions"
+    instruction: ""
+    terminology:
+      - Reciprocal
+      - Flip
+      - Students should be able to confidently answer questions like the
+      - "following:"
+      - Write the steps for calculating 1/2 + 1/4 using the KCF rule.
+      - Explain why 10 + 1/2 gives an answer larger than 10.
+      - A length of timber is 3/4 m long. How many smaller pieces,
+      - each 1/8 m long, can be cut from the timber?
+      - "Find the missing number: 2/3 + x = 8/9. Write the final answer"
+      - for xin simplest form.
+    skills:
+      []
+    question_types:
+      []
+
+    foundation_questions:
+      []
+
+    proficient_questions:
+      []
+
+    excellence_questions:
+      []
+  - id: L32
+    topic: Finding fractions of quantity
+    slug: "lo-yr9-finding-fractions-of-quantity"
+    instruction: ""
+    terminology:
+      - Of (of = multiplication)
+    skills:
+      []
+    question_types:
+      []
+
+    foundation_questions:
+      []
+
+    proficient_questions:
+      []
+
+    excellence_questions:
+      []
+  - id: L33
+    topic: Multiples & Lowest Common Multiples
+    slug: "lo-yr9-multiples-lowest-common-multiples"
+    instruction: ""
+    terminology:
+      - Multiple
+      - Common multiple
+      - Lowest common multiple
+    skills:
+      []
+    question_types:
+      []
+
+    foundation_questions:
+      []
+
+    proficient_questions:
+      []
+
+    excellence_questions:
+      []
+  - id: L34
+    topic: Factors, Highest Common Factors & Primes
+    slug: "lo-yr9-factors-highest-common-factors-primes"
+    instruction: ""
+    terminology:
+      - Factor
+      - Common factor
+      - Highest common factor
+      - Prime number
+    skills:
+      []
+    question_types:
+      []
+
+    foundation_questions:
+      []
+
+    proficient_questions:
+      []
+
+    excellence_questions:
+      []
+  - id: L35
+    topic: Irrational numbers
+    slug: "lo-yr9-irrational-numbers"
+    instruction: ""
+    terminology:
+      - Rational number
+      - Irrational number
+      - Surb
+      - Pi/t
+      - e
+      - Group
+    skills:
+      []
+    question_types:
+      []
+
+    foundation_questions:
+      []
+
+    proficient_questions:
+      []
+
+    excellence_questions:
+      []
+  - id: L36
+    topic: Forming expressions
+    slug: "lo-yr9-forming-expressions"
+    instruction: ""
+    terminology:
+      - Expression (and how it differences from an equation)
+      - Variable
+      - "Co-efficient"
+      - Term
+    skills:
+      []
+    question_types:
+      []
+
+    foundation_questions:
+      []
+
+    proficient_questions:
+      []
+
+    excellence_questions:
+      []
+  - id: L37
+    topic: Multiplying Expressions (no powers)
+    slug: "lo-yr9-multiplying-expressions-no-powers"
+    instruction: ""
+    terminology:
+      - Expressions
+      - Simplify
+      - Variable
+      - "Co-efficient"
+    skills:
+      []
+    question_types:
+      []
+
+    foundation_questions:
+      []
+
+    proficient_questions:
+      []
+
+    excellence_questions:
+      []
+  - id: L38
+    topic: Adding and Subtracting Expressions (Like Terms)
+    slug: "lo-yr9-adding-and-subtracting-expressions-like-terms"
+    instruction: ""
+    terminology:
+      - Like terms
+      - Unlike terms
+      - Group
+      - Variable
+      - Simplify
+      - "Co-efficient"
+    skills:
+      []
+    question_types:
+      []
+
+    foundation_questions:
+      []
+
+    proficient_questions:
+      []
+
+    excellence_questions:
+      []
+  - id: L39
+    topic: Multiplying Expressions (with powers)
+    slug: "lo-yr9-multiplying-expressions-with-powers"
+    instruction: ""
+    terminology:
+      - Variable
+      - Simplify
+      - "Co-efficient"
+      - Exponents / powers
+      - Product
+    skills:
+      []
+    question_types:
+      []
+
+    foundation_questions:
+      []
+
+    proficient_questions:
+      []
+
+    excellence_questions:
+      []
+  - id: L40
+    topic: Dividing Expressions
+    slug: "lo-yr9-dividing-expressions"
+    instruction: ""
+    terminology:
+      - Simplify
+      - Quotient
+      - A nte J ranayare
+    skills:
+      []
+    question_types:
+      []
+
+    foundation_questions:
+      []
+
+    proficient_questions:
+      []
+
+    excellence_questions:
+      []
+  - id: L41
+    topic: Simplifying Expressions with GEMA / BEDMAS
+    slug: "lo-yr9-simplifying-expressions-with-gema-bedmas"
+    instruction: ""
+    terminology:
+      - GEMA
+      - BEDMAS
+      - Simplify
+    skills:
+      []
+    question_types:
+      []
+
+    foundation_questions:
+      []
+
+    proficient_questions:
+      []
+
+    excellence_questions:
+      []
+  - id: L42
+    topic: Expanding single brackets
+    slug: "lo-yr9-expanding-single-brackets"
+    instruction: ""
+    terminology:
+      - Single brackets
+      - Expand
+      - Distribute
+      - Bracket
+      - Multiply
+    skills:
+      []
+    question_types:
+      []
+
+    foundation_questions:
+      []
+
+    proficient_questions:
+      []
+
+    excellence_questions:
+      []
+  - id: L43
+    topic: Factorising single brackets
+    slug: "lo-yr9-factorising-single-brackets"
+    instruction: ""
+    terminology:
+      - Single brackets
+      - Factorise
+      - Highest common factor
+      - Divide
+    skills:
+      []
+    question_types:
+      []
+
+    foundation_questions:
+      []
+
+    proficient_questions:
+      []
+
+    excellence_questions:
+      []
+  - id: L44
+    topic: Substitution (repeated from Term 1)
+    slug: "lo-yr9-substitution-repeated-from-term-1"
+    instruction: ""
+    terminology:
+      - Variable
+      - Expression
+      - Substitute
+      - Evaluate
+      - Pronumeral
+      - "Co-efficient"
+      - "following:"
+      - "ify =8, find 4y - 1."
+      - Evaluate (6x + 12) + 3 when x = 4.
+      - Arectangle has l= 10 and w= 7. Use A = lwto find the area.
+      - "Real-life substitution: Speed = distance + time. Distance = 240"
+      - km, time = 2.5 h. Find the speed.
+      - "Evaluate: 5x - 2y when x = 3 andy = -4"
+    skills:
+      []
+    question_types:
+      []
+
+    foundation_questions:
+      []
+
+    proficient_questions:
+      []
+
+    excellence_questions:
+      []
+  - id: L45
+    topic: Defining Variables & Forming Equations
+    slug: "lo-yr9-defining-variables-forming-equations"
+    instruction: ""
+    terminology:
+      - Equation
+      - Variable
+      - Defining
+    skills:
+      []
+    question_types:
+      []
+
+    foundation_questions:
+      []
+
+    proficient_questions:
+      []
+
+    excellence_questions:
+      []
+  - id: L46
+    topic: "Solving 1-step equations"
+    slug: "lo-yr9-solving-1-step-equations"
+    instruction: ""
+    terminology:
+      - Solve
+      - "1-step equation"
+      - Opposite
+      - Inverse operation
+    skills:
+      []
+    question_types:
+      []
+
+    foundation_questions:
+      []
+
+    proficient_questions:
+      []
+
+    excellence_questions:
+      []
+  - id: L47
+    topic: "Solving 2-step equations"
+    slug: "lo-yr9-solving-2-step-equations"
+    instruction: ""
+    terminology:
+      - Solve
+      - "2-step equation"
+      - Reverse GEMA/BEDMAS
+      - Opposite
+      - Inverse operation
+    skills:
+      []
+    question_types:
+      []
+
+    foundation_questions:
+      []
+
+    proficient_questions:
+      []
+
+    excellence_questions:
+      []
+  - id: L48
+    topic: Solving equations with variables on both sides
+    slug: "lo-yr9-solving-equations-with-variables-on-both-sides"
+    instruction: ""
+    terminology:
+      - Variable on Both Sides
+    skills:
+      []
+    question_types:
+      []
+
+    foundation_questions:
+      []
+
+    proficient_questions:
+      []
+
+    excellence_questions:
+      []
+  - id: L49
+    topic: Forming and solving equations from context
+    slug: "lo-yr9-forming-and-solving-equations-from-context"
+    instruction: ""
+    terminology:
+      []
+    skills:
+      []
+    question_types:
+      []
+
+    foundation_questions:
+      []
+
+    proficient_questions:
+      []
+
+    excellence_questions:
+      []
+  - id: L50
+    topic: Solving inequalities
+    slug: "lo-yr9-solving-inequalities"
+    instruction: ""
+    terminology:
+      - Inequality sign
+      - Less than
+      - Greater than
+      - Less than or equal to
+      - Greater than or equal to
+      - Students should be able to confidently answer questions like the
+      - "following:"
+      - "Solve the 2-step inequation: 4x - 6 < 18."
+      - "Solve for p: p/2+5>12."
+      - "Solve for a: 10 - 2a < 2. (Requires flipping the sign)."
+      - A taxi ride costs a $5 fee plus $2 per kilometre, k. If you have a
+      - maximum budget of $25, write an inequation and solve it to find
+      - the maximum distance you can travel.
+    skills:
+      []
+    question_types:
+      []
+
+    foundation_questions:
+      []
+
+    proficient_questions:
+      []
+
+    excellence_questions:
+      []
+  - id: L51
+    topic: "Re-arranging formula"
+    slug: "lo-yr9-re-arranging-formula"
+    instruction: ""
+    terminology:
+      - "Re-arrange"
+      - Change the Subject
+      - Isolate
+      - Students should be able to confidently answer questions like the
+      - "following:"
+      - The formula for distance is D=S x T. Make T the subject.
+      - The formula for perimeter of a rectangle is P = 2L + 2W. Make L
+      - the subject.
+      - "Given y =x + 5, re-arrange the formula to make x the subject."
+      - Extension Learning Objectives
+    skills:
+      []
+    question_types:
+      []
+
+    foundation_questions:
+      []
+
+    proficient_questions:
+      []
+
+    excellence_questions:
+      []
+  - id: L52
+    topic: Relationship between percentages, fractions, and decimals
+    slug: "lo-yr9-relationship-between-percentages-fractions-and-decimals"
+    instruction: ""
+    terminology:
+      - Percentage
+      - Fraction
+      - Decimal
+      - Convert
+    skills:
+      []
+    question_types:
+      []
+
+    foundation_questions:
+      []
+
+    proficient_questions:
+      []
+
+    excellence_questions:
+      []
+  - id: L53
+    topic: Forming percentages
+    slug: "lo-yr9-forming-percentages"
+    instruction: ""
+    terminology:
+      - Percentage
+    skills:
+      []
+    question_types:
+      []
+
+    foundation_questions:
+      []
+
+    proficient_questions:
+      []
+
+    excellence_questions:
+      []
+  - id: L54
+    topic: Percentage of a given quantity
+    slug: "lo-yr9-percentage-of-a-given-quantity"
+    instruction: ""
+    terminology:
+      - Percentage of a given quantity
+      - Of
+      - Interest
+      - Principal
+      - Simple Interest
+      - Compound Interest
+      - Goods and Services Tax / GST
+      - Depreciation
+    skills:
+      []
+    question_types:
+      []
+
+    foundation_questions:
+      []
+
+    proficient_questions:
+      []
+
+    excellence_questions:
+      []
+  - id: L55
+    topic: Increasing and decreasing by a given percentage
+    slug: "lo-yr9-increasing-and-decreasing-by-a-given-percentage"
+    instruction: ""
+    terminology:
+      - Percentage of a given quantity
+      - Of
+      - Interest
+      - Principal
+      - Simple Interest
+      - Compound Interest
+      - Goods and Services Tax / GST
+      - Depreciation
+    skills:
+      []
+    question_types:
+      []
+
+    foundation_questions:
+      []
+
+    proficient_questions:
+      []
+
+    excellence_questions:
+      []
+  - id: L56
+    topic: Tools of chance
+    slug: "lo-yr9-tools-of-chance"
+    instruction: ""
+    terminology:
+      - Coins
+      - Heads
+      - Tails
+      - Dice
+      - Playing cards
+      - Deck
+      - Face value
+      - Colours of playing cards
+      - Probability
+      - Theoretical probability
+      - Sample space
+    skills:
+      []
+    question_types:
+      []
+
+    foundation_questions:
+      []
+
+    proficient_questions:
+      []
+
+    excellence_questions:
+      []
+  - id: L57
+    topic: F/T
+    slug: "lo-yr9-f-t"
+    instruction: ""
+    terminology:
+      - Probability
+      - Favourable outcomes
+    skills:
+      []
+    question_types:
+      []
+
+    foundation_questions:
+      []
+
+    proficient_questions:
+      []
+
+    excellence_questions:
+      []
+  - id: L58
+    topic: Probabilities from experiments and statistical displays
+    slug: "lo-yr9-probabilities-from-experiments-and-statistical-displays"
+    instruction: ""
+    terminology:
+      - Theoretical probability
+      - Experimental probability
+      - FIT
+    skills:
+      []
+    question_types:
+      []
+
+    foundation_questions:
+      []
+
+    proficient_questions:
+      []
+
+    excellence_questions:
+      []
+  - id: L59
+    topic: Trees/Combined Events
+    slug: "lo-yr9-trees-combined-events"
+    instruction: ""
+    terminology:
+      - Combined events
+      - Tree diagram
+      - Branch
+      - Outcome
+    skills:
+      []
+    question_types:
+      []
+
+    foundation_questions:
+      []
+
+    proficient_questions:
+      []
+
+    excellence_questions:
+      []
+  - id: L60
+    topic: "Two-way tables"
+    slug: "lo-yr9-two-way-tables"
+    instruction: ""
+    terminology:
+      - "Two-Way Table"
+      - Cells
+      - Totals
+      - Conditional probability
+    skills:
+      []
+    question_types:
+      []
+
+    foundation_questions:
+      []
+
+    proficient_questions:
+      []
+
+    excellence_questions:
+      []
+  - id: L61
+    topic: Expected Number
+    slug: "lo-yr9-expected-number"
+    instruction: ""
+    terminology:
+      - Expected number
+      - Number of trials
+      - Probability
+      - Students should be able to confidently answer questions like the
+      - "following:"
+      - If P(Rain) = 0.2, and you check the weather for 10 days, how
+      - many days are expected to have rain?
+      - The probability of a train being delayed is 0.15. In a year, there
+      - are 365 trains. Calculate the expected number of delayed trains
+      - ver the year.
+      - A bag contains 4 red balls and 6 blue balls. If a ball is drawn and
+      - replaced 100 times, what is the expected number of times a
+      - blue ball will be drawn?
+      - A factory produces 2,000 light bulbs. If the probability of a bulb
+      - being faulty is 1/200, how many faulty bulbs are expected?
+      - Statistics Learning Objectives
+    skills:
+      []
+    question_types:
+      []
+
+    foundation_questions:
+      []
+
+    proficient_questions:
+      []
+
+    excellence_questions:
+      []
+  - id: L62
+    topic: Investigation types
+    slug: "lo-yr9-investigation-types"
+    instruction: ""
+    terminology:
+      - Summary investigation
+      - Comparison investigation
+      - Relationship investigation
+      - "Time-series investigation"
+    skills:
+      []
+    question_types:
+      []
+
+    foundation_questions:
+      []
+
+    proficient_questions:
+      []
+
+    excellence_questions:
+      []
+  - id: L63
+    topic: Types of data
+    slug: "lo-yr9-types-of-data"
+    instruction: ""
+    terminology:
+      - Qualitative data
+      - Quantitative data / Categorical
+      - Continuous
+      - Discrete
+      - Primary
+      - Secondary
+    skills:
+      []
+    question_types:
+      []
+
+    foundation_questions:
+      []
+
+    proficient_questions:
+      []
+
+    excellence_questions:
+      []
+  - id: L64
+    topic: Calculating averages and range
+    slug: "lo-yr9-calculating-averages-and-range"
+    instruction: ""
+    terminology:
+      - Mean
+      - Median
+      - Mode
+      - Range
+    skills:
+      []
+    question_types:
+      []
+
+    foundation_questions:
+      []
+
+    proficient_questions:
+      []
+
+    excellence_questions:
+      []
+  - id: L65
+    topic: Quartiles
+    slug: "lo-yr9-quartiles"
+    instruction: ""
+    terminology:
+      - Minimum
+      - Lower Quartile /Q1
+      - Median/Q2
+      - Upper Quartile /Q3
+      - Maximum
+      - Interquartile range
+      - "Box-and-whisker graph"
+      - Dot plot
+    skills:
+      []
+    question_types:
+      []
+
+    foundation_questions:
+      []
+
+    proficient_questions:
+      []
+
+    excellence_questions:
+      []
+  - id: L66
+    topic: Selecting appropriate displays
+    slug: "lo-yr9-selecting-appropriate-displays"
+    instruction: ""
+    terminology:
+      - Statistical display
+      - Qualitative data
+      - Quantitative data / Categorical
+      - Continuous
+      - Discrete
+    skills:
+      []
+    question_types:
+      []
+
+    foundation_questions:
+      []
+
+    proficient_questions:
+      []
+
+    excellence_questions:
+      []
+  - id: L67
+    topic: Interpreting pie charts & pictograms
+    slug: "lo-yr9-interpreting-pie-charts-pictograms"
+    instruction: ""
+    terminology:
+      - Pie chart
+      - Pictogram
+      - Scale
+    skills:
+      []
+    question_types:
+      []
+
+    foundation_questions:
+      []
+
+    proficient_questions:
+      []
+
+    excellence_questions:
+      []
+  - id: L68
+    topic: Interpreting bar graphs & histograms
+    slug: "lo-yr9-interpreting-bar-graphs-histograms"
+    instruction: ""
+    terminology:
+      - Bargraph
+      - Histograms
+    skills:
+      []
+    question_types:
+      []
+
+    foundation_questions:
+      []
+
+    proficient_questions:
+      []
+
+    excellence_questions:
+      []
+  - id: L69
+    topic: Writing a statistical paragraph
+    slug: "lo-yr9-writing-a-statistical-paragraph"
+    instruction: ""
+    terminology:
+      []
+    skills:
+      []
+    question_types:
+      []
+
+    foundation_questions:
+      []
+
+    proficient_questions:
+      []
+
+    excellence_questions:
+      []
+  - id: L70
+    topic: "Analysing time series graphs - TSN"
+    slug: "lo-yr9-analysing-time-series-graphs-tsn"
+    instruction: ""
+    terminology:
+      - Time series
+      - "Long-term trend"
+      - Seasonality
+      - Noise
+    skills:
+      []
+    question_types:
+      []
+
+    foundation_questions:
+      []
+
+    proficient_questions:
+      []
+
+    excellence_questions:
+      []
+  - id: L71
+    topic: "Analysing scatter plots (i.e. bivariate) - TARSOG"
+    slug: "lo-yr9-analysing-scatter-plots-i-e-bivariate-tarsog"
+    instruction: ""
+    terminology:
+      - Scatter plot
+      - Trend
+      - Association
+      - Relationship
+      - Scatter
+      - Outlier
+      - Grouping
+    skills:
+      []
+    question_types:
+      []
+
+    foundation_questions:
+      []
+
+    proficient_questions:
+      []
+
+    excellence_questions:
+      []
+  - id: L72
+    topic: "Comparing box-and-whisker graphs - CSSI"
+    slug: "lo-yr9-comparing-box-and-whisker-graphs-cssi"
+    instruction: ""
+    terminology:
+      - "Box-and-whisker graphs"
+      - Centre
+      - Shape
+      - Spread
+      - Left skew / left tail
+      - Dike nln g, Jetta ath
+      - a
+    skills:
+      []
+    question_types:
+      []
+
+    foundation_questions:
+      []
+
+    proficient_questions:
+      []
+
+    excellence_questions:
+      []
+  - id: L73
+    topic: Misleading graphs
+    slug: "lo-yr9-misleading-graphs"
+    instruction: ""
+    terminology:
+      []
+    skills:
+      []
+    question_types:
+      []
+
+    foundation_questions:
+      []
+
+    proficient_questions:
+      []
+
+    excellence_questions:
+      []
+  - id: L74
+    topic: Planning and collecting multivariate data
+    slug: "lo-yr9-planning-and-collecting-multivariate-data"
+    instruction: ""
+    terminology:
+      - Multivariate data
+      - Sample
+      - Sampling method
+      - Sampling variation
+      - Bias
+      - Extension Learning Objectives
+    skills:
+      []
+    question_types:
+      []
+
+    foundation_questions:
+      []
+
+    proficient_questions:
+      []
+
+    excellence_questions:
+      []
+  - id: L75
+    topic: Extrapolating linear, quadratic, and exponential patterns
+    slug: "lo-yr9-extrapolating-linear-quadratic-and-exponential-patterns"
+    instruction: ""
+    terminology:
+      - Sequence
+      - Term
+      - Term number
+      - First difference
+      - Second difference
+    skills:
+      []
+    question_types:
+      []
+
+    foundation_questions:
+      []
+
+    proficient_questions:
+      []
+
+    excellence_questions:
+      []
+  - id: L76
+    topic: Identifying linear, quadratic, and exponential patterns
+    slug: "lo-yr9-identifying-linear-quadratic-and-exponential-patterns"
+    instruction: ""
+    terminology:
+      - First difference
+      - Second difference
+      - Linear pattern
+      - Quadratic pattern
+      - Exponential pattern
+    skills:
+      []
+    question_types:
+      []
+
+    foundation_questions:
+      []
+
+    proficient_questions:
+      []
+
+    excellence_questions:
+      []
+  - id: L77
+    topic: Spatial patterns (including drawing next pattern and converting to pattern)
+    slug: "lo-yr9-spatial-patterns-including-drawing-next-pattern-and-converting-to-pattern"
+    instruction: ""
+    terminology:
+      - Spatial pattern
+    skills:
+      []
+    question_types:
+      []
+
+    foundation_questions:
+      []
+
+    proficient_questions:
+      []
+
+    excellence_questions:
+      []
+  - id: L78
+    topic: Determining nth term of pattern or spatial pattern
+    slug: "lo-yr9-determining-nth-term-of-pattern-or-spatial-pattern"
+    instruction: ""
+    terminology:
+      - Change / gradient
+      - Constant
+      - Term
+      - Term number
+    skills:
+      []
+    question_types:
+      []
+
+    foundation_questions:
+      []
+
+    proficient_questions:
+      []
+
+    excellence_questions:
+      []
+  - id: L79
+    topic: "Understanding Cartesian plane and co-ordinates"
+    slug: "lo-yr9-understanding-cartesian-plane-and-co-ordinates"
+    instruction: ""
+    terminology:
+      - Cartesian plane
+      - "X-axis"
+      - "Y-axis"
+      - "Co-ordinate"
+    skills:
+      []
+    question_types:
+      []
+
+    foundation_questions:
+      []
+
+    proficient_questions:
+      []
+
+    excellence_questions:
+      []
+  - id: L80
+    topic: "Drawing straight-line from given equation"
+    slug: "lo-yr9-drawing-straight-line-from-given-equation"
+    instruction: ""
+    terminology:
+      - Gradient
+      - "Y-intercept"
+      - "Straight-line graph"
+      - Substitution
+    skills:
+      []
+    question_types:
+      []
+
+    foundation_questions:
+      []
+
+    proficient_questions:
+      []
+
+    excellence_questions:
+      []
+  - id: L81
+    topic: Gradient
+    slug: "lo-yr9-gradient"
+    instruction: ""
+    terminology:
+      - Gradient
+      - Rise
+      - Run
+    skills:
+      []
+    question_types:
+      []
+
+    foundation_questions:
+      []
+
+    proficient_questions:
+      []
+
+    excellence_questions:
+      []
+  - id: L82
+    topic: "Finding x- and y-intercepts"
+    slug: "lo-yr9-finding-x-and-y-intercepts"
+    instruction: ""
+    terminology:
+      - "X-intercept"
+      - "Y-intercept"
+    skills:
+      []
+    question_types:
+      []
+
+    foundation_questions:
+      []
+
+    proficient_questions:
+      []
+
+    excellence_questions:
+      []
+  - id: L83
+    topic: Forming equations of given straight line graph (using y=mx+c)
+    slug: "lo-yr9-forming-equations-of-given-straight-line-graph-using-y-mx-c"
+    instruction: ""
+    terminology:
+      - Gradient
+      - "Y-intercept"
+    skills:
+      []
+    question_types:
+      []
+
+    foundation_questions:
+      []
+
+    proficient_questions:
+      []
+
+    excellence_questions:
+      []
+  - id: L84
+    topic: Forming equations of horizontal and vertical lines
+    slug: "lo-yr9-forming-equations-of-horizontal-and-vertical-lines"
+    instruction: ""
+    terminology:
+      - Horizontal line
+      - Vertical line
+    skills:
+      []
+    question_types:
+      []
+
+    foundation_questions:
+      []
+
+    proficient_questions:
+      []
+
+    excellence_questions:
+      []
+  - id: L85
+    topic: Finding point of intersection of two lines
+    slug: "lo-yr9-finding-point-of-intersection-of-two-lines"
+    instruction: ""
+    terminology:
+      - Point of intersection
+    skills:
+      []
+    question_types:
+      []
+
+    foundation_questions:
+      []
+
+    proficient_questions:
+      []
+
+    excellence_questions:
+      []
+  - id: L86
+    topic: Drawing parabola from given equation
+    slug: "lo-yr9-drawing-parabola-from-given-equation"
+    instruction: ""
+    terminology:
+      - Parabola
+      - Quadratic
+    skills:
+      []
+    question_types:
+      []
+
+    foundation_questions:
+      []
+
+    proficient_questions:
+      []
+
+    excellence_questions:
+      []
+  - id: L87
+    topic: Using tables to explore patterns and graphs
+    slug: "lo-yr9-using-tables-to-explore-patterns-and-graphs"
+    instruction: ""
+    terminology:
+      []
+    skills:
+      []
+    question_types:
+      []
+
+    foundation_questions:
+      []
+
+    proficient_questions:
+      []
+
+    excellence_questions:
+      []
+  - id: L88
+    topic: Applying straight line graphs to solve problems
+    slug: "lo-yr9-applying-straight-line-graphs-to-solve-problems"
+    instruction: ""
+    terminology:
+      []
+    skills:
+      []
+    question_types:
+      []
+
+    foundation_questions:
+      []
+
+    proficient_questions:
+      []
+
+    excellence_questions:
+      []
+  - id: L89
+    topic: Naming angles
+    slug: "lo-yr9-naming-angles"
+    instruction: ""
+    terminology:
+      - Angle
+      - Vertex
+      - Degree
+      - Angle naming convention
+      - Angle notation (∠)
+    skills:
+      []
+    question_types:
+      []
+
+    foundation_questions:
+      []
+
+    proficient_questions:
+      []
+
+    excellence_questions:
+      []
+  - id: L90
+    topic: Angles around a point
+    slug: "lo-yr9-angles-around-a-point"
+    instruction: ""
+    terminology:
+      - Angle around a point
+      - Full revolution
+    skills:
+      []
+    question_types:
+      []
+
+    foundation_questions:
+      []
+
+    proficient_questions:
+      []
+
+    excellence_questions:
+      []
+  - id: L91
+    topic: Angles on a straight line
+    slug: "lo-yr9-angles-on-a-straight-line"
+    instruction: ""
+    terminology:
+      - Straight line
+      - Angles on a straight line
+    skills:
+      []
+    question_types:
+      []
+
+    foundation_questions:
+      []
+
+    proficient_questions:
+      []
+
+    excellence_questions:
+      []
+  - id: L92
+    topic: Vertically opposite angles
+    slug: "lo-yr9-vertically-opposite-angles"
+    instruction: ""
+    terminology:
+      - Vertically opposite angles
+      - Bisecting lines
+    skills:
+      []
+    question_types:
+      []
+
+    foundation_questions:
+      []
+
+    proficient_questions:
+      []
+
+    excellence_questions:
+      []
+  - id: L93
+    topic: Interior angles of a triangle
+    slug: "lo-yr9-interior-angles-of-a-triangle"
+    instruction: ""
+    terminology:
+      - Triangle
+      - Scalene triangle
+      - Isosceles triangle
+      - Equilateral triangle
+    skills:
+      []
+    question_types:
+      []
+
+    foundation_questions:
+      []
+
+    proficient_questions:
+      []
+
+    excellence_questions:
+      []
+  - id: L94
+    topic: Parallel line rules
+    slug: "lo-yr9-parallel-line-rules"
+    instruction: ""
+    terminology:
+      - Parallel lines
+      - Bisecting line / transversal line
+      - Corresponding angles
+      - "Co-interior angles"
+      - Alternate angles
+    skills:
+      []
+    question_types:
+      []
+
+    foundation_questions:
+      []
+
+    proficient_questions:
+      []
+
+    excellence_questions:
+      []
+  - id: L95
+    topic: Regular/irregular polygon
+    slug: "lo-yr9-regular-irregular-polygon"
+    instruction: ""
+    terminology:
+      - Regular polygon
+      - Irregular polygon
+      - Internal angle
+    skills:
+      []
+    question_types:
+      []
+
+    foundation_questions:
+      []
+
+    proficient_questions:
+      []
+
+    excellence_questions:
+      []
+  - id: L96
+    topic: Pythagoras theory finding short and long sides
+    slug: "lo-yr9-pythagoras-theory-finding-short-and-long-sides"
+    instruction: ""
+    terminology:
+      - Pythagoras’ theory
+      - Short side
+      - Long side
+      - "Right-angle"
+      - "Right-angle triangle"
+    skills:
+      []
+    question_types:
+      []
+
+    foundation_questions:
+      []
+
+    proficient_questions:
+      []
+
+    excellence_questions:
+      []
+  - id: L97
+    topic: Applying Pythagoras’ theory
+    slug: "lo-yr9-applying-pythagoras-theory"
+    instruction: ""
+    terminology:
+      []
+    skills:
+      []
+    question_types:
+      []
+
+    foundation_questions:
+      []
+
+    proficient_questions:
+      []
+
+    excellence_questions:
+      []
+  - id: L98
+    topic: Pythagorean triples
+    slug: "lo-yr9-pythagorean-triples"
+    instruction: ""
+    terminology:
+      - Pythagorean triple
+    skills:
+      []
+    question_types:
+      []
+
+    foundation_questions:
+      []
+
+    proficient_questions:
+      []
+
+    excellence_questions:
+      []
+  - id: L99
+    topic: Transformation (Translation, reflection, enlargement)
+    slug: "lo-yr9-transformation-translation-reflection-enlargement"
+    instruction: ""
+    terminology:
+      []
+    skills:
+      []
+    question_types:
+      []
+
+    foundation_questions:
+      []
+
+    proficient_questions:
+      []
+
+    excellence_questions:
+      []
+  - id: L100
+    topic: Representing and constructing 3D shapes
+    slug: "lo-yr9-representing-and-constructing-3d-shapes"
+    instruction: ""
+    terminology:
+      - Nets
+      - Plan view
+      - Rectangular prism
+      - Triangular prism
+      - Pyramid
+      - 3D shape
+      - Edge
+      - Face
+      - Vertex
+    skills:
+      []
+    question_types:
+      []
+
+    foundation_questions:
+      []
+
+    proficient_questions:
+      []
+
+    excellence_questions:
+      []
